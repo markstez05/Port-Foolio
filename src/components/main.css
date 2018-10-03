@@ -30,12 +30,24 @@
     height: 15vh;
 }
 .nav-name{
-    font-size: 5.5rem;
+    margin-right: 120px;
+    margin-left: 0px;
+    width: 95%;
+    padding: 5px;
+    border-radius: 25px;
+    border: 8px solid rgb(11, 225, 253);
+    box-shadow: 1px 1px 26px 2px rgb(173, 248, 183);
+    font-size: 4.2rem;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0), 2px 1px 20px rgb(0, 247, 255); 
+    color: rgb(1, 238, 255);
+    animation: temp 2s infinite;
+    font-family: 'Orbitron', sans-serif;
+
 }
-.stance{
-    border: 1px solid red;
-    width: 100px;
-    height: 100px;
+.stancer{
+    width: 425px;
+    height: 425px;
+    margin-top: -50px;
 }
 .left-box{
     width: 8%;
@@ -97,7 +109,7 @@
     min-height: 90px;
     transform: skew(15deg, 0deg);
 }
-.screen1{
+.screen-border{
     border-right: 10px solid rgb(77, 28, 5);
     border-left: 10px solid rgb(77, 28, 5);
     display: flex;
@@ -109,13 +121,43 @@
     border-bottom: 2px solid black;
 }
 .screen{
-
+    display: flex;
+    flex-direction: column;
     width: 76%;
     border: 10px solid gray;
     box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.692);
     border-radius: 10px;
     background-color: black;
     height: 80%;
+}
+.screen-top{
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 2.4rem;
+    height: 15%;
+    border: 1px solid red;
+}
+.middle-screen{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    height: 75%;
+}
+.equip-bar{
+    width: 15%;
+    border: 1px solid red;
+}
+.charcater{
+    width: 15%;
+    border:1px solid red;
+}
+.equip-bar2{
+    width: 70%;
+    border: 1px solid red;
+}
+.screen-bot{
+    border: 1px solid red;
+    height: 35%;
 }
 .controller-box{
     width: 78.5%;
@@ -144,7 +186,7 @@
     background-color:rgba(141,62,10);
 }
 .controller-box-mid{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -170,7 +212,11 @@
 }
 .button1:active{
     transform: scale(.95);
-    box-shadow: inset 1px 1px 2px 3px rgba(20, 20, 20, 0.692);
+    box-shadow: inset 1px 1px 2px 3px rgba(20, 20, 20, 0.623);
+    transform: scale(1.0);
+}
+.button1:hover{
+    cursor: pointer;
 }
 .button1a{
     background-color: rgb(201, 25, 25);
@@ -178,12 +224,16 @@
     width: 54px;
     height: 25px;
     transform: skew(0deg, 0deg);
-    box-shadow: inset 1px 1px 1px 2px rgba(24, 24, 24, 0.349);
+    box-shadow: inset 1px 1px 1px 2px rgba(24, 24, 24, 0.397);
     border-radius: 100%;
 }
 .button1a:active{
     transform: scale(.95);
-    box-shadow: inset 1px 1px 2px 3px rgba(0, 0, 0, 0.692);
+    box-shadow: inset 1px 1px 2px 3px rgba(0, 0, 0, 0.61);
+    transform: scale(1.01);
+}
+.button1a:hover{
+    cursor: pointer;
 }
 .button2{
     width: 55px;
@@ -208,3 +258,7 @@ button2:hover{
     border-right: 10px solid rgb(77, 28, 5);
     background-color: rgb(219, 92, 8);
 }
+
+@keyframes temp {
+    50% {box-shadow: 3px 3px 25px 5px #00ffffc2;}
+  }

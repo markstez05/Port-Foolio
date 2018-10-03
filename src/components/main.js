@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./main.css"
-
+import stance from "./stance.png"
 
 class Main extends Component {
     constructor(props) {
@@ -14,7 +14,7 @@ render () {
         <div className="container">
         <div className="Nav">
         <div className="left-box"></div>
-        <div className="nav-name">
+        <div className="nav">
         
             <p className="nav-name">M.A.R.K. ST3Z</p>      
             </div>
@@ -25,9 +25,17 @@ render () {
         <div className="middle-box"></div>
         <div className="shadow-box"></div>
         </div>
-        <div className="screen1">
+        <div className="screen-border">
         <div className="screen">
-        <div></div>
+        <div className="screen-top">asdf</div>
+
+        <div className="middle-screen">
+        <div className="equip-bar"></div>
+        <div className="character"></div>
+        <div className="equip-bar2"></div>
+        </div>
+        
+        <div className="screen-bot"></div>
         </div>
         </div>
         <div className="controller-box">
