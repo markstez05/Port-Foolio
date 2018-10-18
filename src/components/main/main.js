@@ -9,7 +9,7 @@ class Main extends Component {
 render () {
     return (
         <div className="main">
-        <div className="container">
+        {/* <div className="container">
         <div className="Nav">
         <div className="left-box"></div>
         <div className="nav">
@@ -50,7 +50,7 @@ render () {
         </div>
        
        <div className="coin"></div>
-        </div>
+        </div> */}
         </div>
         )
     }
