@@ -4,12 +4,15 @@ import "./landing.css";
 class Landing extends Component {
     hover(ev){
         document.getElementById("profile").onmouseover = function(){
+        document.getElementById('stats').style.width = '';
+        document.getElementById("stats").style.transitionDelay = "1s";
+        document.getElementById("stats").style.animation = "all 2s";
         document.getElementById('stats').style.display = '';
-        document.getElementById("stats").style.transition = "all 2s";
     }
     document.getElementById('profile').onmouseout = function(){
         document.getElementById("stats").style.transition = "all 2s";
-        document.getElementById('stats').style.display = 'none';
+        document.getElementById('stats').style.width = '0px';
+        // document.getElementById('stats').style.display = 'none';
     }
 };
   render() {

@@ -49,6 +49,7 @@
     background: rgba(0, 128, 128, 0.295);
     width: 500px;
     margin-left: -260px;
+    /* animation-name: fadeIn; */
 }
 @keyframes fadeIn {
     from {
