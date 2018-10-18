@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import "./main.css"
-import stance from "./stance.png"
 
 class Main extends Component {
     constructor(props) {
@@ -10,7 +9,6 @@ class Main extends Component {
 render () {
     return (
         <div className="main">
-        {/* <div><span></span></div> */}
         <div className="container">
         <div className="Nav">
         <div className="left-box"></div>
