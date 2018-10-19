@@ -1,18 +1,45 @@
 .landing{
     display: flex;
-    align-items: flex-end;
+    flex-direction: row;
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     font-family: 'Lato', sans-serif;
+    background-image: url("../../images/wall.jpeg") ; 
+    background-size: cover;
 }
 .profile{
     margin-top:100px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: flex-start;
+}
+.logo{
+    opacity: 0;
+    z-index: 0;
+    position: absolute;
+    margin-top: -102px;
+    /* margin-bottom: 380px; */
+    /* justify-self: flex-end; */
+    align-self: flex-end;
+}
+.logo-name{
+    text-align: right;
+    color: rgb(5, 173, 173);
+    font-size: 2.5rem;
+    margin-bottom: -28px;
+    margin-right: 10px;
+}
+.logo-title{
+    margin-bottom:17px;
+    /* text-shadow: 1px 1px 5px rgb(49, 49, 48); */
+    text-align: right;
+    color:rgb(240, 239, 239);
+  
+    font-size: 1.7rem;
+    margin-right: 10px;
 }
 .image{
+    z-index: 1;
     float: left;
     margin-left: -142px;
     margin-bottom: -11px;
@@ -32,7 +59,6 @@
 }
 .profile-info:hover{
     transform: none;
-
 }
 .skew{
     border-top-left-radius: 10px;
@@ -44,12 +70,14 @@
 .stats{
     border-top-right-radius: 10px;
     border-top: 30px solid rgba(155, 85, 20, 1.904);
-    height: 303.5px;
+    height: 303px;
     background: #195e5c83;
     width: 0px;
+    align-self: flex-end;
     margin-left: -328px;
 }
 .stat-info{
+    opacity: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -67,7 +95,55 @@
     align-self: center;
     margin-right: 17px;
 }
-
+.icon-div{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: -150px;
+}
+.icons{
+    position: relative;
+    bottom: 0;
+    justify-self: flex-end;
+    color: white;
+    align-self: flex-end;
+    width: 44px;
+    height: 44px;
+}
+.icons:hover{
+    color: rgb(167, 167, 167);
+    box-shadow: 0 0 5px  solid rgb(252, 250, 250);
+    transform: scale(1.1);
+}
+.tech-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+    margin-left: 15px;
+    margin-top: -20px;
+}
+.tech{
+    width: 50px;
+    height: 50px;
+    margin-bottom: -15px;
+    /* margin-left: 20px; */
+}
+.tech-title{
+    margin-left: 4px;
+    font-size: 1rem;
+}
+.info-title{
+    margin-top: 0px;
+    margin-left: 15px;
+    text-align: left;
+    padding: 5px;
+    width: 95%;
+    font-size: 1.5rem;
+    color: white;
+    border-bottom: 1px solid white;
+}
 
 
 @keyframes fadeIn {
