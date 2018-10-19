@@ -1,14 +1,17 @@
 .landing{
     display: flex;
     flex-direction: row;
+    margin: auto;
     width: 100%;
-    height: 95vh;
+    height: 90vh;
     font-family: 'Lato', sans-serif;
-    background-image: url("../../images/wall.jpeg") ; 
-    background-size: cover;
+    z-index: 1;
+    background-color: rgba(15, 110, 148, 0.096);
+
 }
 .profile{
     margin-top:100px;
+    margin-left: -120px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -17,37 +20,37 @@
     opacity: 0;
     z-index: 0;
     position: absolute;
-    margin-top: -102px;
+    margin-top: -105px;
     /* margin-bottom: 380px; */
     /* justify-self: flex-end; */
     align-self: flex-end;
 }
 .logo-name{
     text-align: right;
-    color: rgb(5, 173, 173);
+    color: rgb(16, 173, 173);
     font-size: 2.5rem;
-    margin-bottom: -28px;
+    margin-bottom: -20px;
     margin-right: 10px;
+    text-shadow: 1px 1px 10px rgb(3, 3, 3);
 }
 .logo-title{
     margin-bottom:17px;
-    /* text-shadow: 1px 1px 5px rgb(49, 49, 48); */
     text-align: right;
     color:rgb(240, 239, 239);
-  
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-right: 10px;
 }
 .image{
     z-index: 1;
-    float: left;
+    position: relative;
+    left: 0;
     margin-left: -142px;
     margin-bottom: -11px;
 }
 .profile-info{
     display: flex;
     flex-direction: column;
-    background: #195e5c83;
+    background: #10504f79;
     color:white;
     z-index: 1;
     position: absolute;
@@ -55,25 +58,64 @@
     transition: transform 1s cubic-bezier(.8, .3, .6, 1);
     margin-left: 190px;
     width: 300px;
-    height: 330px;
+    height: 320px;
+    border-right: 2px solid rgba(155, 85, 20, 1.904);
+    border-left: 2px solid rgba(155, 85, 20, 1.904);
 }
 .profile-info:hover{
     transform: none;
 }
+.profile-stuff{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    padding: 5px;
+    background-color: rgba(11, 148, 148, 0.623);
+    margin-bottom: -140px;
+    align-self: center;
+    width: 135px;
+    height: 135px;
+    border: 5px solid  rgba(155, 85, 20, 1);
+    border-radius: 100%;
+}
+.stuff-info{
+    color: rgb(255, 255, 255);
+}
+.email{
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    font-size: .8rem;
+    font-weight: 700;
+    margin-left:-1px;
+}
 .skew{
-    border-top-left-radius: 10px;
+    /* border-top-left-radius: 10px; */
     background: rgba(155, 85, 20, 1.904);
-    margin-top: -14px;
-    transform: skew(0deg, 4.29deg);
+    margin-top: -15px;
+    transform: skew(0deg, -5.4deg);
     height: 30px;
+    width: 100.5%
+}
+.bio{
+    padding: 5px;
+    margin-left:5px;
+    letter-spacing: .02cm;
+    text-align: left;
+    font-size: 1.1rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 400;
 }
 .stats{
-    border-top-right-radius: 10px;
+    /* border-top-right-radius: 10px; */
     border-top: 30px solid rgba(155, 85, 20, 1.904);
-    height: 303px;
-    background: #195e5c83;
+    height: 319px;
+    /* background: #195e5c56; */
     width: 0px;
+    background: #10504f7e;
+    max-width: 800px;
     align-self: flex-end;
+    /* border-right: 2px solid rgba(155, 85, 20, 1.904); */
     margin-left: -328px;
 }
 .stat-info{
@@ -94,12 +136,14 @@
     padding-top: 5px;
     align-self: center;
     margin-right: 17px;
+    margin-bottom: 10px;
 }
 .icon-div{
     display: flex;
     justify-content: space-evenly;
     position: relative;
     bottom: -150px;
+    margin-right: 18px;
 }
 .icons{
     position: relative;
@@ -136,13 +180,25 @@
 }
 .info-title{
     margin-top: 0px;
+    margin-bottom: 35px;
     margin-left: 15px;
     text-align: left;
     padding: 5px;
     width: 95%;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: white;
     border-bottom: 1px solid white;
+}
+.info-title2{
+    margin-top: -14px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 5px;
+    width: 95%;
+    font-size: 1.4rem;
+    color: white;
+    border-top: 1px solid white;
 }
 
 
