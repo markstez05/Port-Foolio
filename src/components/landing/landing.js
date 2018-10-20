@@ -34,15 +34,15 @@ class Landing extends Component {
         document.getElementById("down-arrow").style.height = "";
         document.getElementById("down-arrow").style.transition = "ease-out .5s";
         document.getElementById("stats").style.transition = "all ease-out 1.4s";
-        document.getElementById("stats").style.transitionDelay = "1s";
+        document.getElementById("stats").style.transitionDelay = "1.2s";
         document.getElementById('stats').style.width = "";
         document.getElementById("profile1").style.transform = "";
         document.getElementById("profile1").style.transition = "all ease-out 1.3s";
-        document.getElementById("profile1").style.transitionDelay = "2.7s";
+        document.getElementById("profile1").style.transitionDelay = "2.9s";
         document.getElementById("info").style.opacity = "";
-        document.getElementById("info").style.transitionDelay = ".32s"
+        document.getElementById("info").style.transitionDelay = ".52s"
         document.getElementById("logo").style.opacity = "";
-        document.getElementById("logo").style.transitionDelay = "-.5s"
+        document.getElementById("logo").style.transitionDelay = "-.3s"
     }
  
   render() {
