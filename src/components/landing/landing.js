@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import equip from "../../images/equip.png";
 import "./landing.css";
-import {  FaLinkedin, FaGithub, FaEnvelope, FaPhoneSquare} from "react-icons/fa";
+import {  FaLinkedin, FaGithub, FaEnvelope, FaPhoneSquare, FaAngleUp, FaAngleDown} from "react-icons/fa";
 import react from "../../images/react.png";
 import mongo from "../../images/mongodb.png";
 import redux from "../../images/redux.png";
@@ -9,9 +9,15 @@ import node from "../../images/node.png";
 import git from "../../images/git.png";
 
 class Landing extends Component {
-    hover(){
-        document.getElementById("profile").onmouseover = function(){
-        document.getElementById("profile").style.transitionDelay = "0s";
+
+    hover = () =>{
+        document.getElementById("profile1").style.transform = "none";
+        document.getElementById("profile1").style.transition = "transform 1.2s cubic-bezier(.4, .4, .4, 1)";
+        document.getElementById("profile1").style.transitionDelay = ".2s";
+        document.getElementById("up-arrow").style.height = "0px";
+        document.getElementById("up-arrow").style.transition = "ease-out .5s";
+        document.getElementById("down-arrow").style.height = "40px";
+        document.getElementById("down-arrow").style.transition = "ease-in .5s";
         document.getElementById('stats').style.width = '55%';
         document.getElementById("stats").style.transitionDelay = "1.3s";
         document.getElementById("info").style.opacity = "1";
@@ -21,27 +27,41 @@ class Landing extends Component {
         document.getElementById("logo").style.transition = "all ease-in 1.3s";
         document.getElementById("logo").style.transitionDelay = "3s";
     }
-  }
-   hoverOff(ev){ document.getElementById('profile').onmouseout = function(){
-        document.getElementById("stats").style.transition = "all ease-out 1.2s";
+  
+   hoverOff = () => {
+        document.getElementById("up-arrow").style.height = "";
+        document.getElementById("up-arrow").style.transition = "ease-in .5s";
+        document.getElementById("down-arrow").style.height = "";
+        document.getElementById("down-arrow").style.transition = "ease-out .5s";
+        document.getElementById("stats").style.transition = "all ease-out 1.4s";
         document.getElementById("stats").style.transitionDelay = "1s";
         document.getElementById('stats').style.width = "";
-        document.getElementById("profile").style.transition = "all ease-out 1.3s";
-        document.getElementById("profile").style.transitionDelay = "2.4s";
+        document.getElementById("profile1").style.transform = "";
+        document.getElementById("profile1").style.transition = "all ease-out 1.3s";
+        document.getElementById("profile1").style.transitionDelay = "2.7s";
         document.getElementById("info").style.opacity = "";
         document.getElementById("info").style.transitionDelay = ".32s"
         document.getElementById("logo").style.opacity = "";
         document.getElementById("logo").style.transitionDelay = "-.5s"
     }
-};
+ 
   render() {
     return (
       <div className="landing">
-
-        <div className="profile"> 
+        <div   className="profile"> 
             <img src={ equip } alt="equip" className="image" /> 
-            <div onMouseOut={this.hoverOff} onMouseOver={this.hover} id="profile" className="profile-info">
+            <div id="profile1" className="profile-info">
             <div className="skew"></div>
+             <FaAngleUp 
+                id="up-arrow"
+                className="arrow-button"
+                onClick={this.hover}
+             />
+             <FaAngleDown
+                id="down-arrow"
+                className="arrow-button2"
+                onClick={this.hoverOff}
+             />
             <h3 className="name">About Me</h3>
             <h5 className="title">Full Stack Web Developer</h5>
             <div className="profile-stuff">
@@ -85,7 +105,7 @@ class Landing extends Component {
             <div id="info" className="stat-info">
             <div id="logo" className="logo">
             <h1 className="logo-name" >Mark Stesney</h1>
-            <h2 className="logo-title">Full Stack Web Developer</h2>
+            <h2 className="logo-title">Software Engineer</h2>
             </div>
             <h4 className="info-title">Favorite Tech</h4>
             <div className="tech-container">
