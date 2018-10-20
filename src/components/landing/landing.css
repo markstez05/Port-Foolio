@@ -114,7 +114,7 @@
 }
 .email{
     text-decoration: none;
-    color: rgb(63, 63, 63);
+    color: rgb(236, 236, 236);
     font-size: .8rem;
     font-weight: 700;
     margin-left:-1px;
@@ -144,7 +144,7 @@
     /* background: #195e5c56; */
     width: 0px;
     background: #585858a1;
-    max-width: 800px;
+    max-width: 1000px;
     align-self: flex-end;
     /* border-right: 2px solid rgba(155, 85, 20, 1.904); */
     margin-left: -324px;
@@ -200,8 +200,8 @@
     margin-top: -20px;
 }
 .tech{
-    width: 50px;
-    height: 50px;
+    width: 8vh;
+    height: 8vh;
     margin-bottom: -15px;
     /* margin-left: 20px; */
 }

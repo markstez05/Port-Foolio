@@ -9,7 +9,7 @@
 }
 .navbar1{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     font-size: 1.1rem;
     z-index: 3;
@@ -19,7 +19,7 @@
 }
 .nav-link{
     color: rgb(255, 255, 255);
-    margin-right: 5px;
+    margin-right: 35px;
     text-decoration: none;
 }
 .nav-link:hover{
@@ -30,8 +30,9 @@
     text-decoration: underline;
 }
 .title1{
-    color:rgb(155, 85, 20);
-    font-size: 25px;
+    opacity: 0;
+    color:rgb(126, 70, 18);
+    font-size: 2rem;
     font-weight: 400;
     margin-left: 20px;
     text-decoration: none;

@@ -12,17 +12,17 @@ class Landing extends Component {
 
     hover = () =>{
         document.getElementById("profile1").style.transform = "none";
-        document.getElementById("profile1").style.transition = "transform 1.2s cubic-bezier(.4, .4, .4, 1)";
+        document.getElementById("profile1").style.transition = "transform 1.3s cubic-bezier(.4, .4, .4, 1)";
         document.getElementById("profile1").style.transitionDelay = ".2s";
         document.getElementById("up-arrow").style.height = "0px";
         document.getElementById("up-arrow").style.transition = "ease-out .5s";
         document.getElementById("down-arrow").style.height = "40px";
         document.getElementById("down-arrow").style.transition = "ease-in .5s";
         document.getElementById('stats').style.width = '55%';
-        document.getElementById("stats").style.transitionDelay = "1.3s";
+        document.getElementById("stats").style.transitionDelay = "1.45s";
         document.getElementById("info").style.opacity = "1";
         document.getElementById("info").style.transition = " all ease-in 1.3s";
-        document.getElementById("info").style.transitionDelay = "1.4s";
+        document.getElementById("info").style.transitionDelay = "1.55s";
         document.getElementById("logo").style.opacity = "1";
         document.getElementById("logo").style.transition = "all ease-in 1.3s";
         document.getElementById("logo").style.transitionDelay = "3s";
