@@ -2,12 +2,10 @@
     display: flex;
     flex-direction: row;
     margin: auto;
-    width: 100%;
-    height: 90vh;
+    width: 80%;
+    height: 85vh;
     font-family: 'Lato', sans-serif;
     z-index: 1;
-    background-color: rgba(15, 110, 148, 0.096);
-
 }
 .profile{
     margin-top:100px;
@@ -44,7 +42,7 @@
     z-index: 1;
     position: relative;
     left: 0;
-    margin-left: -142px;
+    margin-left: -210px;
     margin-bottom: -11px;
 }
 .profile-info{
@@ -56,23 +54,25 @@
     position: absolute;
     transform: translate(0, 75%);
     transition: transform 1.2s cubic-bezier(.4, .4, .4, 1);
-    margin-left: 190px;
+    margin-left: 120px;
     width: 300px;
-    height: 320px;
-    border-right: 2px solid rgba(155, 85, 20, 1.904);
-    border-left: 2px solid rgba(155, 85, 20, 1.904);
+    height: 340px;
+    /* border-right: 2px solid rgba(155, 85, 20, 1.904);
+    border-left: 2px solid rgba(155, 85, 20, 1.904); */
 }
-/* .profile-info:hover{
-    transform: none;
-} */
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    margin-top:-15px;
+}
 .arrow-button{
     position: absolute;
     left: 78%;
-    top: 2%;
+    top: 11%;
     width: 40px;
     height: 40px;
     z-index: 2;
-    color: rgb(172, 171, 171);
+    color: rgb(235, 235, 235);
 }
 .arrow-button:hover{
     transition: .2s;
@@ -81,11 +81,11 @@
     transform: scale(1.1);
 }
 .arrow-button2{
-    color: rgb(172, 171, 171);
+    color: rgb(236, 236, 236);
     margin-top: 0px;
     position: absolute;
     left: 78%;
-    top: 2%;
+    top: 11%;
     width: 40px;
     height: 0px;
     z-index: 2;
@@ -96,36 +96,57 @@
     cursor: pointer;
     transform: scale(1.1);
 }
+.arrow-button3{
+    color: rgb(245, 245, 245);
+    margin-top: 0px;
+    position: absolute;
+    left: 78%;
+    top: 11%;
+    width: 0px;
+    height: 40px;
+    z-index: 2;
+}
+.arrow-button3:hover{
+    transition: all .2s;
+    color: rgb(235, 235, 235);
+    cursor: pointer;
+    transform: scale(1.1);
+}
 .profile-stuff{
     display: flex;
     flex-direction: column;
     margin-right: 25px;
     padding: 5px;
-    background-color: rgba(25, 202, 202, 0.384);
-    margin-bottom: -140px;
+    background-color: rgb(17, 143, 143);
+    margin-top: 5px;
+    margin-bottom: -130px;
     align-self: center;
-    width: 135px;
-    height: 135px;
-    border: 5px solid  rgba(155, 85, 20, 1);
+    width: 145px;
+    height: 145px;
+    border: 10px solid  rgba(155, 85, 20, 1);
     border-radius: 100%;
 }
 .stuff-info{
-    color: rgb(255, 255, 255);
+    color: rgb(70, 70, 70);
+    font-size: 1rem;
+    margin-bottom: 0px;
+    margin-top:32px;
 }
 .email{
+    margin-top: 15px;
     text-decoration: none;
     color: rgb(236, 236, 236);
-    font-size: .8rem;
+    font-size: .83em;
     font-weight: 700;
-    margin-left:-1px;
+    margin-left:0px;
+    margin-bottom:-15px;
 }
 .skew{
-    /* border-top-left-radius: 10px; */
     background: rgba(155, 85, 20, 1.904);
     margin-top: -15px;
-    transform: skew(0deg, -5.4deg);
+    transform: skew(0deg, 5.4deg);
     height: 30px;
-    width: 100.5%
+    width: 100%
 }
 .bio{
     padding: 5px;
@@ -138,16 +159,14 @@
     font-weight: 400;
 }
 .stats{
-    /* border-top-right-radius: 10px; */
     border-top: 30px solid rgba(155, 85, 20, 1.904);
-    height: 319px;
+    height: 311px;
     /* background: #195e5c56; */
     width: 0px;
     background: #585858a1;
     max-width: 1000px;
     align-self: flex-end;
-    /* border-right: 2px solid rgba(155, 85, 20, 1.904); */
-    margin-left: -324px;
+    margin-left: -330px;
 }
 .stat-info{
     opacity: 0;
@@ -167,7 +186,7 @@
     padding-top: 5px;
     align-self: center;
     margin-right: 17px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .icon-div{
     display: flex;
@@ -182,11 +201,11 @@
     justify-self: flex-end;
     color: white;
     align-self: flex-end;
-    width: 44px;
-    height: 44px;
+    width: 42px;
+    height: 42px;
 }
 .icons:hover{
-    color: rgb(167, 167, 167);
+    color: rgb(17, 143, 143);
     box-shadow: 0 0 5px  solid rgb(252, 250, 250);
     transform: scale(1.1);
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import equip from "../../images/equip.png";
 import "./landing.css";
-import {  FaLinkedin, FaGithub, FaEnvelope, FaPhoneSquare, FaAngleUp, FaAngleDown} from "react-icons/fa";
+import {  FaLinkedin, FaGithub, FaEnvelope, FaPhoneSquare, FaAngleUp, FaAngleRight, FaAngleDown} from "react-icons/fa";
 import react from "../../images/react.png";
 import mongo from "../../images/mongodb.png";
 import redux from "../../images/redux.png";
@@ -18,16 +18,30 @@ class Landing extends Component {
         document.getElementById("up-arrow").style.transition = "ease-out .5s";
         document.getElementById("down-arrow").style.height = "40px";
         document.getElementById("down-arrow").style.transition = "ease-in .5s";
-        document.getElementById('stats').style.width = '55%';
+        document.getElementById("stats").style.transition = "ease-in-out 1.3s";
+        document.getElementById('stats').style.width = '80%';
         document.getElementById("stats").style.transitionDelay = "1.45s";
         document.getElementById("info").style.opacity = "1";
         document.getElementById("info").style.transition = " all ease-in 1.3s";
-        document.getElementById("info").style.transitionDelay = "1.55s";
+        document.getElementById("info").style.transitionDelay = "1.9s";
         document.getElementById("logo").style.opacity = "1";
         document.getElementById("logo").style.transition = "all ease-in 1.3s";
         document.getElementById("logo").style.transitionDelay = "3s";
     }
-  
+    buttonRight = () => {
+      document.getElementById("right-arrow").style.width = "0px";
+      document.getElementById("right-arrow").style.transition = "ease-out .5s";
+      document.getElementById("down-arrow").style.height = "40px";
+      document.getElementById("down-arrow").style.transition = "ease-in .5s";
+      document.getElementById('stats').style.width = '55%';
+      document.getElementById("stats").style.transitionDelay = ".45s";
+      document.getElementById("info").style.opacity = "1";
+      document.getElementById("info").style.transition = " all ease-in 1.3s";
+      document.getElementById("info").style.transitionDelay = ".55s";
+      document.getElementById("logo").style.opacity = "1";
+      document.getElementById("logo").style.transition = "all ease-in 1.3s";
+      document.getElementById("logo").style.transitionDelay = "2s";
+    }
    hoverOff = () => {
         document.getElementById("up-arrow").style.height = "";
         document.getElementById("up-arrow").style.transition = "ease-in .5s";
@@ -57,13 +71,19 @@ class Landing extends Component {
                 className="arrow-button"
                 onClick={this.hover}
              />
+               <FaAngleRight
+                id="right-arrow"
+                className="arrow-button3"
+                onClick={this.buttonRight}
+             />
              <FaAngleDown
                 id="down-arrow"
                 className="arrow-button2"
                 onClick={this.hoverOff}
              />
+             <div className="profile-text">
             <h3 className="name">About Me</h3>
-            <h5 className="title">Full Stack Web Developer</h5>
+            <h5 className="title"></h5>
             <div className="profile-stuff">
             <h5 className="stuff-info">Fayetteville, AR</h5>
             <a className="email"
@@ -101,6 +121,7 @@ class Landing extends Component {
             </div>
             </div>
             </div>
+            </div>
             <div id="stats" className="stats">
             <div id="info" className="stat-info">
             <div id="logo" className="logo">
@@ -133,7 +154,7 @@ class Landing extends Component {
             <h4 className="info-title2"></h4>
             <div className="tech-container">
             <div className="tech-box">
-              <h5 className="bio">My skills include Full Stack Web Development as well as supervising and facilitating multi-faceted projects, troubleshooting an array of technological issues, managing and developing groups of people, orchestrating positive client experiences, and engaging in constructive analysis feedback.</h5>
+              {/* <h5 className="bio">My skills include Full Stack Web Development as well as supervising and facilitating multi-faceted projects, troubleshooting an array of technological issues, managing and developing groups of people, orchestrating positive client experiences, and engaging in constructive analysis feedback.</h5> */}
             </div>
             </div>
             </div>
