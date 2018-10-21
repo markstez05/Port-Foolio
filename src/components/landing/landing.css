@@ -234,10 +234,10 @@
     margin-left: 15px;
     text-align: left;
     padding: 5px;
-    width: 95%;
+    /* width: 95%; */
     font-size: 1.4rem;
     color: white;
-    border-bottom: 1px solid white;
+    /* border-bottom: 3px solid rgb(17, 143, 143); */
 }
 .info-title2{
     margin-top: -14px;
@@ -248,7 +248,7 @@
     width: 95%;
     font-size: 1.4rem;
     color: white;
-    border-top: 1px solid white;
+    /* border-top: 1px solid white; */
 }
 
 

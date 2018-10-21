@@ -62,7 +62,7 @@ class Landing extends Component {
   render() {
     return (
       <div className="landing">
-        <div   className="profile"> 
+        <div  id="about" className="profile"> 
             <img src={ equip } alt="equip" className="image" /> 
             <div id="profile1" className="profile-info">
             <div className="skew"></div>
