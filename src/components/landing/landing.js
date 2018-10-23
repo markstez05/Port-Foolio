@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import equip from "../../images/equip.png";
 import "./landing.css";
-import {  FaLinkedin, FaGithub, FaEnvelope, FaPhoneSquare, FaAngleUp, FaAngleRight, FaAngleDown} from "react-icons/fa";
+import {  FaLinkedin, FaGithub, FaDownload, FaEnvelope, FaPhoneSquare, FaAngleUp, FaAngleRight, FaAngleDown} from "react-icons/fa";
 import react from "../../images/react.png";
 import mongo from "../../images/mongodb.png";
 import redux from "../../images/redux.png";
 import node from "../../images/node.png";
 import git from "../../images/git.png";
+import resume from "../../images/MarkStesneyResume.jpg"
 
 class Landing extends Component {
 
@@ -62,6 +63,9 @@ class Landing extends Component {
   render() {
     return (
       <div className="landing">
+      <div className="header"><p>Hi, I'm <strong>Mark Stesney</strong></p><p>Web Developer/Designer/Full Stack Engineer</p></div>
+
+
         <div  id="about" className="profile"> 
             <img src={ equip } alt="equip" className="image" /> 
             <div id="profile1" className="profile-info">
@@ -153,9 +157,13 @@ class Landing extends Component {
             </div>
             <h4 className="info-title2"></h4>
             <div className="tech-container">
-            <div className="tech-box">
+          
+            <h4 className="info-title2"></h4> 
+            <div className="button-div"> <a className="resume" href={ resume } download><FaDownload className="icons2"/>Download Resume</a> </div>
+
+
               {/* <h5 className="bio">My skills include Full Stack Web Development as well as supervising and facilitating multi-faceted projects, troubleshooting an array of technological issues, managing and developing groups of people, orchestrating positive client experiences, and engaging in constructive analysis feedback.</h5> */}
-            </div>
+            
             </div>
             </div>
             </div>
