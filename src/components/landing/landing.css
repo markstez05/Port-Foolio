@@ -3,7 +3,8 @@
     flex-direction: row;
     margin: auto;
     width: 80%;
-    height: 85vh;
+    height: 60vh;
+    max-width: 1200px;
     font-family: 'Lato', sans-serif;
     z-index: 1;
 }
@@ -15,9 +16,18 @@
     justify-content: flex-end;
 }
 .header{
+    align-self: center;
+    justify-self: center;
     position: absolute;
-    top: 10%;
-    right: 10%;
+    top: 15%;
+    right: 15%;
+    text-align: right;
+    color: white;
+    font-size: 1.3rem;
+}
+strong{
+    font-size: 1.4rem;
+    color: rgb(16, 173, 173)
 }
 .logo{
     opacity: 0;
@@ -39,7 +49,7 @@
 .logo-title{
     margin-bottom:17px;
     text-align: right;
-    color:rgb(240, 239, 239);
+    color:white;
     font-size: 1.5rem;
     margin-right: 10px;
 }
@@ -140,7 +150,7 @@
 .email{
     margin-top: 15px;
     text-decoration: none;
-    color: rgb(236, 236, 236);
+    color: white;
     font-size: .83em;
     font-weight: 700;
     margin-left:0px;
@@ -179,7 +189,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    color: rgb(236, 236, 236);
+    color: white;
 }
 .name{
     font-size: 1.5rem;
