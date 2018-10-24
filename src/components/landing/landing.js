@@ -155,15 +155,29 @@ class Landing extends Component {
             <h5 className="tech-title">MongoDB</h5>
             </div>
             </div>
-            <h4 className="info-title2"></h4>
-            <div className="tech-container">
+            <div className="tech-container2">
           
-            <h4 className="info-title2"></h4> 
+            <h4 className="info-title2">Other Skills</h4> 
+            <div className="tech-box2">
+            <ul>
+              <li className="tech-title2">HTML</li>
+              <li className="tech-title2">SCSS</li>
+              <li className="tech-title2">BootStrap</li>
+              <li className="tech-title2">SASS/LESS</li>
+            </ul>
+            </div>
+            <div className="tech-box2">
+            <ul>
+              <li className="tech-title2">Express</li>
+              <li className="tech-title2">Django</li>
+              <li className="tech-title2">JavaScript</li>
+              <li className="tech-title2">Python</li>
+            </ul>
+            </div>
+            <div className="tech-box2">
+
             <div className="button-div"> <a className="resume" href={ resume } download><FaDownload className="icons2"/>Download Resume</a> </div>
-
-
-              {/* <h5 className="bio">My skills include Full Stack Web Development as well as supervising and facilitating multi-faceted projects, troubleshooting an array of technological issues, managing and developing groups of people, orchestrating positive client experiences, and engaging in constructive analysis feedback.</h5> */}
-            
+            </div>
             </div>
             </div>
             </div>
