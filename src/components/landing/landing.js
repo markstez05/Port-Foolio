@@ -59,13 +59,20 @@ class Landing extends Component {
         document.getElementById("logo").style.opacity = "";
         document.getElementById("logo").style.transitionDelay = "-.3s"
     }
- 
+    
+    componentDidMount(){ window.addEventListener("scroll", function() {
+     let spinBig = document.getElementById("spinBig"),
+      spinSmall = document.getElementById("spinSmall");
+        spinBig.style.transform = "rotate("+window.pageYOffset+"deg)";
+        spinSmall.style.transform = "rotate(-"+window.pageYOffset+"deg)";
+    });
+  }
   render() {
     return (
       <div className="landing">
       <div className="header"><p>Hi, I'm <strong>Mark Stesney</strong></p><p>Web Developer/Designer/Full Stack Engineer</p></div>
-
-
+            <div  id="spinBig" className="spinner"></div>
+            <div id="spinSmall" className="spinner1"></div>
         <div  id="about" className="profile"> 
             <img src={ equip } alt="equip" className="image" /> 
             <div id="profile1" className="profile-info">
@@ -98,30 +105,10 @@ class Landing extends Component {
             <h5 className="stuff-info">(918)361-8479</h5>
             </div>
             <div className="icon-div">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/mark-stesney/"
-              >
-            <FaLinkedin className="icons" /></a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/markstez05"
-              >
-            <FaGithub className="icons" /></a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="mailto:mstesney12@gmail.com"
-              >
-            <FaEnvelope className="icons" /></a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="tel:1-918-361-8479"
-              >
-            <FaPhoneSquare className="icons" /></a>
+            <div className="tech-box2">
+
+<div className="button-div"> <a className="resume" href={ resume } download><FaDownload className="icons2"/>Download Resume</a> </div>
+</div>
             </div>
             </div>
             </div>
@@ -130,9 +117,9 @@ class Landing extends Component {
             <div id="info" className="stat-info">
             <div id="logo" className="logo">
             <h1 className="logo-name" >Mark Stesney</h1>
-            <h2 className="logo-title">Software Engineer</h2>
+            <h2 className="logo-title">Favorite Tech</h2>
             </div>
-            <h4 className="info-title">Favorite Tech</h4>
+            <h4 className="info-title"></h4>
             <div className="tech-container">
             <div className="tech-box">
             <img src={ react } alt="tech" className="tech"/>
@@ -155,9 +142,7 @@ class Landing extends Component {
             <h5 className="tech-title">MongoDB</h5>
             </div>
             </div>
-            <div className="tech-container2">
-          
-            <h4 className="info-title2">Other Skills</h4> 
+            {/* <div className="tech-container2">
             <div className="tech-box2">
             <ul>
               <li className="tech-title2">HTML</li>
@@ -174,11 +159,7 @@ class Landing extends Component {
               <li className="tech-title2">Python</li>
             </ul>
             </div>
-            <div className="tech-box2">
-
-            <div className="button-div"> <a className="resume" href={ resume } download><FaDownload className="icons2"/>Download Resume</a> </div>
-            </div>
-            </div>
+            </div> */}
             </div>
             </div>
       </div>

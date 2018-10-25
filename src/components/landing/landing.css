@@ -54,6 +54,39 @@ strong{
     font-size: 1.5rem;
     margin-right: 10px;
 }
+.spinner{
+    z-index: 4;
+    margin-left:-7px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    transform: rotate(-90deg);
+    left: 0;
+	height: 70px;
+	width: 70px;
+    border: 13px solid rgba(0, 128, 128, 1);
+	border-right-color:  rgba(155, 85, 20, 1);
+    border-top-color: rgba(155, 85, 20, 1);
+    border-radius: 100%;
+    box-shadow: inset 1px 0px 5px 1px rgba(54, 54, 54, 0.808);
+}
+.spinner1{
+    z-index: 4;
+    position: fixed;
+    left:0;
+    margin-left:15px;
+    top: 22px;
+    height: 70px;
+    transform: rotate(-10deg);
+    width: 70px;
+    border: 10px solid rgba(155, 85, 20, 1);
+	border-right-color: rgba(0, 128, 128, 1);
+    border-top-color: rgba(0, 128, 128, 1);
+    border-radius: 100%;
+    box-shadow: 1px 0px 5px 1px rgba(53, 53, 53, 0.781);
+}
 .image{
     z-index: 1;
     position: relative;
@@ -64,7 +97,7 @@ strong{
 .profile-info{
     display: flex;
     flex-direction: column;
-    background: rgba(17, 143, 143, 0.18);
+    background: rgba(17, 143, 143, 0.08);
     color:white;
     z-index: 1;
     position: absolute;
@@ -134,7 +167,7 @@ strong{
     flex-direction: column;
     margin-right: 25px;
     padding: 5px;
-    background-color: rgb(17, 143, 143);
+    background-color: rgb(71, 71, 71);
     margin-top: 5px;
     margin-bottom: -130px;
     align-self: center;
@@ -144,7 +177,7 @@ strong{
     border-radius: 100%;
 }
 .stuff-info{
-    color: rgb(70, 70, 70);
+    color: rgb(3, 158, 158);
     font-size: 1rem;
     margin-bottom: 0px;
     margin-top:32px;
@@ -180,7 +213,7 @@ strong{
     height: 311px;
     /* background: #195e5c56; */
     width: 0px;
-    background: rgba(17, 143, 143, 0.18);
+    background: rgba(17, 143, 143, 0.08);
     max-width: 1000px;
     align-self: flex-end;
     margin-left: -330px;
@@ -194,11 +227,11 @@ strong{
     color: white;
 }
 .name{
-    
+    color:rgb(194, 194, 194);
     margin-top: 40px;
     font-size: 1.5rem;
     margin-right: 19px;
-    margin-bottom: -15px;
+    margin-bottom: -20px;
 }
 .title{
     width: 155px;
@@ -217,15 +250,15 @@ strong{
 }
 .icons{
     position: relative;
-    bottom: 0;
     justify-self: flex-end;
-    color: white;
+    color: rgb(71, 71, 71);
     align-self: flex-end;
-    width: 42px;
-    height: 42px;
+    width: 25px;
+    height: 25px;
 }
 .icons:hover{
-    color: rgb(24, 179, 179);
+    content: "Home";
+    color: rgb(5, 255, 255);
     box-shadow: 0 0 5px  solid rgb(252, 250, 250);
     transform: scale(1.1);
     transition: all ease-in .2s;
@@ -238,27 +271,24 @@ strong{
     width: 95%;
     margin-left: 15px;
     margin-top: -20px;
-    margin-bottom: -35px;
+    /* margin-bottom: -35px; */
 }
 .tech-container2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 95%;
-    margin-left: 15px;
-    margin-top: -15px;
-    margin-bottom: 0px;
+    width: 95%; 
 }
 .tech{
-    width: 45px;
-    height: 45px;
+    width: 6vh;
+    height: 6vh;
     margin-bottom: -15px;
 }
 .tech-title{
     margin-left: 4px;
-    
+    color:rgb(194, 194, 194);
     font-size: 1rem;
 }
 .tech-title2{
@@ -273,12 +303,11 @@ strong{
     margin-top: 0px;
     margin-bottom: 35px;
     margin-left: 15px;
-    text-align: left;
+    text-align: center;
     padding: 5px;
-    width: 94%;
     font-size: 1.4rem;
     color: white;
-    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid white; */
 }
 .info-title2{
     margin-top: 40px;
@@ -290,21 +319,10 @@ strong{
     font-size: 1.4rem;
     border-top: 2px solid white;
 }
-/* .button-div{
- 
-    margin:auto;
-    width: 200px;
-    height: 50px;
-    background-color: gray;
-    text-decoration: none;
-    z-index: 2;
-    color: white;
-    border-radius: 5px;
-} */
-
 .resume{
-    background-color: gray;
-    margin-right: 50px;
+    background-color: rgba(17, 143, 143, .8);
+    margin-right: 5px;
+    margin-bottom: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -317,11 +335,11 @@ strong{
     z-index: 2;
 }
 .resume:hover{
-    background-color:rgb(19, 158, 158);
+    background-color:rgba(38, 255, 255, 0.8);
     cursor: pointer;
     transform: scale(1.);
-    transition: all ease-in .2s;
-    color: white;
+    transition: all ease-in .3s;
+    color: black;
 }
 .icons2{
     margin-right: 10px;
