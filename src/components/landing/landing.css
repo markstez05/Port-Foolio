@@ -27,7 +27,7 @@
 }
 strong{
     font-size: 1.4rem;
-    color: rgb(16, 173, 173)
+    color: rgb(16, 173, 173);
 }
 .logo{
     opacity: 0;
@@ -47,10 +47,11 @@ strong{
     /* text-shadow: 1px 1px 2px rgb(48, 48, 48); */
 }
 .logo-title{
-    font-family: 'Lato', sans-serif;
+    font-weight: 700;
     margin-top:23px;
     text-align: right;
     color:white;
+    text-shadow: 1px 1px 1px rgb(53, 53, 53);
     font-size: 1.5rem;
     margin-right: 10px;
 }
@@ -70,7 +71,7 @@ strong{
 	border-right-color:  rgba(155, 85, 20, 1);
     border-top-color: rgba(155, 85, 20, 1);
     border-radius: 100%;
-    box-shadow: inset 1px 0px 5px 1px rgba(54, 54, 54, 0.808);
+    box-shadow: inset 1px 0px 5px 1px rgba(29, 29, 29, 0.908);
 }
 .spinner1{
     z-index: 4;
@@ -85,7 +86,7 @@ strong{
 	border-right-color: rgba(0, 128, 128, 1);
     border-top-color: rgba(0, 128, 128, 1);
     border-radius: 100%;
-    box-shadow: 1px 0px 5px 1px rgba(53, 53, 53, 0.781);
+    box-shadow: 1px 0px 5px 1px rgba(29, 29, 29, 0.908);
 }
 .image{
     z-index: 1;
@@ -97,7 +98,7 @@ strong{
 .profile-info{
     display: flex;
     flex-direction: column;
-    background: rgba(17, 143, 143, 0.08);
+    background: rgba(17, 143, 143, 0.18);
     color:white;
     z-index: 1;
     position: absolute;
@@ -162,12 +163,11 @@ strong{
     transform: scale(1.1);
 }
 .profile-stuff{
-    
     display: flex;
     flex-direction: column;
     margin-right: 25px;
     padding: 5px;
-    background-color: rgb(71, 71, 71);
+    background-color: rgba(71, 71, 71, 1);
     margin-top: 5px;
     margin-bottom: -130px;
     align-self: center;
@@ -177,16 +177,17 @@ strong{
     border-radius: 100%;
 }
 .stuff-info{
-    color: rgb(3, 158, 158);
+    /* color: rgb(3, 158, 158); */
+    color: white;
     font-size: 1rem;
     margin-bottom: 0px;
     margin-top:32px;
 }
 .email{
+    color:rgb(3, 158, 158);
     margin-top: 15px;
     text-decoration: none;
-    color: white;
-    font-size: .83em;
+    font-size: .85rem;
     font-weight: 700;
     margin-left:0px;
     margin-bottom:-15px;
@@ -213,7 +214,7 @@ strong{
     height: 311px;
     /* background: #195e5c56; */
     width: 0px;
-    background: rgba(17, 143, 143, 0.08);
+    background: rgba(17, 143, 143, 0.18);
     max-width: 1000px;
     align-self: flex-end;
     margin-left: -330px;
@@ -282,14 +283,18 @@ strong{
     width: 95%; 
 }
 .tech{
-    width: 6vh;
-    height: 6vh;
+    padding: 15px;
+    border: 5px solid rgba(155, 85, 20, 1);
+    border-radius: 100%;
+    width: 8vh;
+    height: 8vh;
     margin-bottom: -15px;
 }
 .tech-title{
     margin-left: 4px;
-    color:rgb(194, 194, 194);
+    color:rgb(221, 220, 220);
     font-size: 1rem;
+    font-weight: 400;
 }
 .tech-title2{
     text-align: left;
