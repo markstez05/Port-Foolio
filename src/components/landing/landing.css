@@ -1,5 +1,6 @@
 .landing{
     display: flex;
+    position: relative;
     flex-direction: row;
     margin: auto;
     width: 80%;
@@ -7,9 +8,11 @@
     /* max-width: 1200px; */
     font-family: 'Lato', sans-serif;
     z-index: 1;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .profile{
-    margin-top:100px;
+    margin-top: 0px;
     margin-left: -120px;
     display: flex;
     flex-direction: column;
@@ -20,7 +23,7 @@
     justify-self: center;
     position: absolute;
     top: 20%;
-    right: 10%;
+    right: 1%;
     text-align: right;
     color: white;
     font-size: 3.3vh;
@@ -41,7 +44,7 @@ span{
     color: rgb(16, 173, 173);
 }
 .logo{
-    opacity: 0;
+    opacity: 1;
     z-index: 0;
     position: absolute;
     margin-top: -133px;
@@ -82,10 +85,10 @@ span{
 	border-right-color:  rgba(155, 85, 20, 1);
     border-top-color: rgba(155, 85, 20, 1);
     border-radius: 100%;
-    box-shadow: inset 1px 0px 5px 3px rgba(29, 29, 29, 0.908);
+    box-shadow: inset 1px 0px 5px 3px rgb(0, 0, 0);
 }
 .spinner1{
-    z-index: 4;
+    z-index: 2;
     position: fixed;
     left:0;
     margin-left:15px;
@@ -97,7 +100,7 @@ span{
 	border-right-color: rgba(0, 128, 128, 1);
     border-top-color: rgba(0, 128, 128, 1);
     border-radius: 100%;
-    box-shadow: 1px 0px 5px 3px rgba(29, 29, 29, 0.908);
+    box-shadow: 1px 0px 5px 2px rgb(0, 0, 0);
 }
 .image{
     z-index: 1;
