@@ -70,7 +70,7 @@ class Landing extends Component {
   render() {
     return (
       <div className="landing">
-      <div className="header"><p>Hi, I'm <strong>Mark Stesney</strong></p><p>Web Developer/Designer/Full Stack Engineer</p></div>
+      <div className="header"><p>Hi, I'm <strong>Mark Stesney</strong></p><p>Web Developer <span>/ </span>Designer <span>/ </span>Full Stack Engineer</p></div>
             <div  id="spinBig" className="spinner"></div>
             <div id="spinSmall" className="spinner1"></div>
         <div  id="about" className="profile"> 
@@ -93,7 +93,7 @@ class Landing extends Component {
                 onClick={this.hoverOff}
              />
              <div className="profile-text">
-            <h3 className="name">About Me</h3>
+            <h3 className="name">Information</h3>
             <h5 className="title"></h5>
             <div className="profile-stuff">
             <h5 className="stuff-info">Fayetteville, AR</h5>
