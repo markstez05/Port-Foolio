@@ -17,7 +17,7 @@ class Landing extends Component {
         document.getElementById("profile1").style.transitionDelay = ".2s";
         document.getElementById("up-arrow").style.height = "0px";
         document.getElementById("up-arrow").style.transition = "ease-out .5s";
-        document.getElementById("down-arrow").style.height = "40px";
+        document.getElementById("down-arrow").style.height = "35px";
         document.getElementById("down-arrow").style.transition = "ease-in .5s";
         document.getElementById("stats").style.transition = "ease-out 1.6s";
         document.getElementById('stats').style.width = '80%';
@@ -33,7 +33,7 @@ class Landing extends Component {
         document.getElementById("lorem1").style.transitionDelay = "1.45s";
         document.getElementById("lorem2").style.opacity = "0";
         document.getElementById("lorem2").style.transition = "all ease-out 1.4s";    
-        document.getElementById("lorem2").style.transitionDelay = "1.45s";        
+        document.getElementById("lorem2").style.transitionDelay = "1.45s";   
     }
     buttonRight = () => {
       document.getElementById("right-arrow").style.width = "0px";
@@ -71,7 +71,7 @@ class Landing extends Component {
         document.getElementById("lorem1").style.transitionDelay = "2.1s";
         document.getElementById("lorem2").style.opacity = "1";
         document.getElementById("lorem2").style.transition = "all ease-in 1.4s";    
-        document.getElementById("lorem2").style.transitionDelay = "2.1s";  
+        document.getElementById("lorem2").style.transitionDelay = "2.1s";   
     }
     
     componentDidMount(){ window.addEventListener("scroll", function() {
@@ -81,6 +81,7 @@ class Landing extends Component {
         spinSmall.style.transform = "rotate(-"+window.pageYOffset+"deg)";
     });
   }
+
   render() {
     return (
       <div id="home" className="landing">
