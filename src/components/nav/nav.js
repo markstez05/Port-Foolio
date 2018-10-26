@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import "./nav.css";
-import Scrollspy from 'react-scrollspy'
 import { FaHome, FaGithub, FaLinkedin, FaEnvelope, FaPhoneSquare, FaUser } from "react-icons/fa";
-import logo from "../../images/logo.png"
+import logo from "../../images/logo.png";
 
 class NavBar extends Component{
     state = {
