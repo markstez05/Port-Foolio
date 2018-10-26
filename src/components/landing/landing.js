@@ -40,7 +40,7 @@ class Landing extends Component {
       document.getElementById("right-arrow").style.transition = "ease-out .5s";
       document.getElementById("down-arrow").style.height = "40px";
       document.getElementById("down-arrow").style.transition = "ease-in .5s";
-      document.getElementById('stats').style.width = '55%';
+      document.getElementById('stats').style.width = '45%';
       document.getElementById("stats").style.transitionDelay = ".45s";
       document.getElementById("info").style.opacity = "1";
       document.getElementById("info").style.transition = " all ease-in 1.3s";
@@ -84,13 +84,13 @@ class Landing extends Component {
 
   render() {
     return (
-      <div className="landing">
-      <div className="header"><p><span className="header-text" id="lorem2">Hi<span>,</span> I<span>'</span>m </span><strong>Mark Stesney</strong></p><p><span className="header-text" id="lorem1" >Web Developer <span>/ </span>Designer <span>/ </span></span>Full Stack Engineer</p>
+      <div id="home" className="landing">
+           <div className="header"><p><span className="header-text" id="lorem2">Hi<span>,</span> I<span>'</span>m </span><strong>Mark Stesney</strong></p><p><span className="header-text" id="lorem1" >Web Developer <span>/ </span>Designer <span>/ </span></span>Full Stack Engineer</p>
       <p id="lorem" className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
             <div  id="spinBig" className="spinner"></div>
             <div id="spinSmall" className="spinner1"></div>
-        <div  id="about" className="profile"> 
+        <div   className="profile"> 
             <img src={ equip } alt="equip" className="image" /> 
             <div id="profile1" className="profile-info">
             <div className="skew"></div>
@@ -111,7 +111,7 @@ class Landing extends Component {
              />
              <div className="profile-text">
             <h3 className="name">Information</h3>
-            <h5 className="title"></h5>
+            <h5 className="title"> </h5>
             <div className="profile-stuff">
             <h5 className="stuff-info">Fayetteville, AR</h5>
             <a className="email"
@@ -136,7 +136,7 @@ class Landing extends Component {
             <h1 className="logo-name" >Mark Stesney</h1>
             <h2 className="logo-title">Favorite Tech</h2>
             </div>
-            <h4 className="info-title"></h4>
+            <h4 className="info-title"> </h4>
             <div className="tech-container">
             <div className="tech-box">
             <img src={ react } alt="tech" className="tech"/>
