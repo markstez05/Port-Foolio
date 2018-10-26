@@ -19,15 +19,24 @@ class Landing extends Component {
         document.getElementById("up-arrow").style.transition = "ease-out .5s";
         document.getElementById("down-arrow").style.height = "40px";
         document.getElementById("down-arrow").style.transition = "ease-in .5s";
-        document.getElementById("stats").style.transition = "ease-in-out 1.3s";
+        document.getElementById("stats").style.transition = "ease-out 1.6s";
         document.getElementById('stats').style.width = '80%';
         document.getElementById("stats").style.transitionDelay = "1.45s";
         document.getElementById("info").style.opacity = "1";
-        document.getElementById("info").style.transition = " all ease-in 1.3s";
+        document.getElementById("info").style.transition = " all ease-in 1.6s";
         document.getElementById("info").style.transitionDelay = "1.9s";
-        document.getElementById("logo").style.opacity = "1";
-        document.getElementById("logo").style.transition = "all ease-in 1.3s";
-        document.getElementById("logo").style.transitionDelay = "3s";
+        // document.getElementById("logo").style.opacity = "1";
+        // document.getElementById("logo").style.transition = "all ease-in 1.7s";
+        // document.getElementById("logo").style.transitionDelay = "4.4s";
+        document.getElementById("lorem").style.opacity = "0";
+        document.getElementById("lorem").style.transition = "all ease-out 1.9s";    
+        document.getElementById("lorem").style.transitionDelay = "3s";   
+        document.getElementById("lorem1").style.opacity = "0";
+        document.getElementById("lorem1").style.transition = "all ease-out 1.9s";    
+        document.getElementById("lorem1").style.transitionDelay = "3s";
+        document.getElementById("lorem2").style.opacity = "0";
+        document.getElementById("lorem2").style.transition = "all ease-out 1.9s";    
+        document.getElementById("lorem2").style.transitionDelay = "3s";        
     }
     buttonRight = () => {
       document.getElementById("right-arrow").style.width = "0px";
@@ -48,16 +57,26 @@ class Landing extends Component {
         document.getElementById("up-arrow").style.transition = "ease-in .5s";
         document.getElementById("down-arrow").style.height = "";
         document.getElementById("down-arrow").style.transition = "ease-out .5s";
-        document.getElementById("stats").style.transition = "all ease-out 1.4s";
-        document.getElementById("stats").style.transitionDelay = "1.2s";
+        document.getElementById("stats").style.transition = "all ease-out 1.7s";
+        document.getElementById("stats").style.transitionDelay = ".2s";
         document.getElementById('stats').style.width = "";
         document.getElementById("profile1").style.transform = "";
         document.getElementById("profile1").style.transition = "all ease-out 1.3s";
-        document.getElementById("profile1").style.transitionDelay = "2.9s";
+        document.getElementById("profile1").style.transitionDelay = "2.1s";
         document.getElementById("info").style.opacity = "";
-        document.getElementById("info").style.transitionDelay = ".52s"
+        document.getElementById("info").style.transition = "all ease-out .89s";
+        document.getElementById("info").style.transitionDelay = "0s"
         document.getElementById("logo").style.opacity = "";
         document.getElementById("logo").style.transitionDelay = "-.3s"
+        document.getElementById("lorem").style.opacity = "1";
+        document.getElementById("lorem").style.transition = "all ease-in 1.4s";    
+        document.getElementById("lorem").style.transitionDelay = "2.1s";   
+        document.getElementById("lorem1").style.opacity = "1";
+        document.getElementById("lorem1").style.transition = "all ease-in 1.4s";    
+        document.getElementById("lorem1").style.transitionDelay = "2.1s";
+        document.getElementById("lorem2").style.opacity = "1";
+        document.getElementById("lorem2").style.transition = "all ease-in 1.4s";    
+        document.getElementById("lorem2").style.transitionDelay = "2.1s";  
     }
     
     componentDidMount(){ window.addEventListener("scroll", function() {
@@ -70,7 +89,9 @@ class Landing extends Component {
   render() {
     return (
       <div className="landing">
-      <div className="header"><p>Hi, I'm <strong>Mark Stesney</strong></p><p>Web Developer <span>/ </span>Designer <span>/ </span>Full Stack Engineer</p></div>
+      <div className="header"><p><span className="header-text" id="lorem2">Hi<span>,</span> I<span>'</span>m </span><strong>Mark Stesney</strong></p><p><span className="header-text" id="lorem1" >Web Developer <span>/ </span>Designer <span>/ </span></span>Full Stack Engineer</p>
+      <p id="lorem" className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
             <div  id="spinBig" className="spinner"></div>
             <div id="spinSmall" className="spinner1"></div>
         <div  id="about" className="profile"> 
@@ -142,7 +163,7 @@ class Landing extends Component {
             <h5 className="tech-title">MongoDB</h5>
             </div>
             </div>
-            {/* <div className="tech-container2">
+            <div className="tech-container2">
             <div className="tech-box2">
             <ul>
               <li className="tech-title2">HTML</li>
@@ -159,7 +180,23 @@ class Landing extends Component {
               <li className="tech-title2">Python</li>
             </ul>
             </div>
-            </div> */}
+            <div className="tech-box2">
+            <ul>
+              <li className="tech-title2">Express</li>
+              <li className="tech-title2">Django</li>
+              <li className="tech-title2">JavaScript</li>
+              <li className="tech-title2">Python</li>
+            </ul>
+            </div>
+            <div className="tech-box2">
+            <ul>
+              <li className="tech-title2">Express</li>
+              <li className="tech-title2">Django</li>
+              <li className="tech-title2">JavaScript</li>
+              <li className="tech-title2">Python</li>
+            </ul>
+            </div>
+            </div>
             </div>
             </div>
       </div>
