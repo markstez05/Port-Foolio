@@ -43,18 +43,13 @@
     text-decoration: none;
 }
 .nav-link:hover{
-    color: rgb(5, 255, 255);
+    color: rgb(7, 231, 231);
     transform: scale(1.2);
     transition: all ease-in .3s;
 }
 .nav-link:active{
     color: rgb(5, 255, 255);
     text-decoration: underline;
-}
-.nav-link:visited{
-    color: rgb(71, 71, 71);
-    margin-right: 0px;
-    text-decoration: none;
 }
 .title1{
     opacity: 1;
@@ -69,24 +64,6 @@
     color: rgb(43, 29, 10);
 }
 
-
-/* .spinner{
-    z-index: 1;
-    position: absolute;
-    margin: 15% auto;
-	height: 100px;
-	width: 100px;
-    border: 6px dashed rgba(255, 255, 255, 0);
-	border-right-color: orange;
-    border-top-color: orange;
-    border-radius: 100%;
-    animation: spin 5800ms infinite linear;
-} */
-
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(359deg); }
-}
 @media (max-width: 1345px){
   .title1{
     width: 190px;

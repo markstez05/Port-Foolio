@@ -11,10 +11,11 @@ class App extends Component {
     return (
       <Router>
       <div className="App">
+      <div  id="spinBig" className="spinner"></div>
+      <div id="spinSmall" className="spinner1"></div>
       <Nav />
-      <Route exact path="/" component={Landing} />
-      <Route path="/about" component={Main} />
       <Main />
+      <Route exact path="/" component={Landing} />
       </div>
       </Router>
     );
