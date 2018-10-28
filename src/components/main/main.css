@@ -22,8 +22,9 @@
 .logobig{
     opacity: 1;
     position: absolute;
-    top: 20vh;
-    right: 59vh;
+    top: 7%;
+    /* right: 59vh; */
+    margin: auto;
     width: 500px;
     height: 500px;
 }

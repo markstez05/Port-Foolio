@@ -10,11 +10,20 @@ class NavBar extends Component{
 
   componentDidMount() {
     document.addEventListener('scroll', () => {
-    const isTop = window.scrollY === true;
+    const isTop = window.scrollY < 450;
     if (isTop !== this.state.isTop) {
       this.setState({ isTop });
     }
       })
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+    
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
     };
 
     render(){
@@ -23,10 +32,10 @@ class NavBar extends Component{
           <div>
           <a className="title1" href="/"><img src={ logo } alt="logo-pic" className="logo-pic"></img></a></div>
             <div className="navbar1">
-                <a 
+                <a style={{color: this.state.isTop ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
                   className="nav-link"
                   href="#home"><FaHome/></a>
-                <a 
+                <a style={{color: !this.state.isTop ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
                   className="nav-link"
                   href="#about"><FaUser/></a>
                 <a 
