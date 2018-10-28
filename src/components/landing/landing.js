@@ -13,7 +13,7 @@ class Landing extends Component {
 
     hover = () =>{
         document.getElementById("profile1").style.transform = "none";
-        document.getElementById("profile1").style.transition = "transform 1.3s cubic-bezier(.4, .4, .4, 1)";
+        document.getElementById("profile1").style.transition = "transform 1.3s cubic-bezier(.3, .3, .3, 1)";
         document.getElementById("profile1").style.transitionDelay = ".2s";
         document.getElementById("up-arrow").style.height = "0px";
         document.getElementById("up-arrow").style.transition = "ease-out .5s";
@@ -26,13 +26,13 @@ class Landing extends Component {
         document.getElementById("info").style.transition = " all ease-in 1.6s";
         document.getElementById("info").style.transitionDelay = "2.7s";
         document.getElementById("lorem").style.opacity = "0";
-        document.getElementById("lorem").style.transition = "all ease-out 1.4s";    
-        document.getElementById("lorem").style.transitionDelay = "1.45s";   
+        document.getElementById("lorem").style.transition = "all ease-out 1s";    
+        document.getElementById("lorem").style.transitionDelay = "1.45s";  
         document.getElementById("lorem1").style.opacity = "0";
-        document.getElementById("lorem1").style.transition = "all ease-out 1.4s";    
+        document.getElementById("lorem1").style.transition = "all ease-out 1s";    
         document.getElementById("lorem1").style.transitionDelay = "1.45s";
         document.getElementById("lorem2").style.opacity = "0";
-        document.getElementById("lorem2").style.transition = "all ease-out 1.4s";    
+        document.getElementById("lorem2").style.transition = "all ease-out 1s";    
         document.getElementById("lorem2").style.transitionDelay = "1.45s";   
     }
     buttonRight = () => {

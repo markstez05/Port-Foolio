@@ -2,9 +2,9 @@
   width: 100%;
   text-align: center;
   background-color: #3d3d3d;
-  /* background-image:  url("./images/wall.jpeg") ;  */
-  background-size: 100%;
-background-repeat: no-repeat;
+  /* background-image: url("./images/fall.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat; */
 }
 
 .App-logo {
