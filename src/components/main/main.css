@@ -4,10 +4,20 @@
     background-color: #3d3d3d;
     display: flex;
     flex-direction: column;
-    background-image: url("../../images/fall.jpeg");
+    /* background-image: url("../../images/fall.jpeg"); */
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
+}
+.fall{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
 }
 .logobig{
     opacity: 1;

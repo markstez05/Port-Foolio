@@ -16,6 +16,7 @@ class App extends Component {
       <Nav />
       <Main />
       <Route exact path="/" component={Landing} />
+      <Main />
       </div>
       </Router>
     );
