@@ -42,7 +42,7 @@
     color: rgb(71, 71, 71);
     margin-right: 0px;
     text-decoration: none;
-    transition: all ease-in .3s;
+    transition: all ease-in .4s;
 }
 .nav-link:hover{
     color: rgb(7, 231, 231);

@@ -4,7 +4,7 @@
     flex-direction: row;
     margin: auto;
     width: 100%;
-    background-color: #3d3d3d;
+    background-color: #3d3d3dfb;
     font-family: 'Lato', sans-serif;
     z-index: 2;
     overflow-y: hidden;
@@ -32,16 +32,16 @@
     right: 0%;
     text-align: right;
     color: white;
-    font-size: 3.3vh;
+    font-size: 2.2rem;
 }
 .header-text{
-    font-size: 3.3vh;
-    color: white;
+    font-size: 2.1rem;
+    color: rgb(238, 238, 238);
     font-weight: 400;
 }
 strong{
     font-weight: 700;
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     color: rgb(18, 194, 194);
 }
 span{
