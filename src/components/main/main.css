@@ -9,12 +9,18 @@
     background-repeat: no-repeat;
     align-items: center;
 }
+.opac{
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(128, 128, 128, 0.253);
+    z-index: 3;
+}
 .fall{
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     z-index: 0;
     width: 100%;
     height: 100vh;
@@ -22,7 +28,10 @@
 .logobig{
     opacity: 1;
     position: absolute;
-    top: 10%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     margin: auto;
     width: 500px;
     height: 500px;

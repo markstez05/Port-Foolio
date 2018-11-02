@@ -291,6 +291,7 @@ span{
     align-self: flex-end;
     width: 25px;
     height: 25px;
+    transition: ease-in .3s;
 }
 .icons:hover{
     content: "Home";
