@@ -51,10 +51,15 @@ class Work extends Component {
         <img className="slides" src={ ff7menu } />
         <img className="slides" src={ ff7 }  />
         </div>
-      <div className="slide-div">
+      <div className="slide-div2">
         <img className="slidesOne" src={ ff7login }  />
         <img className="slidesOne" src={ ff7menu } />
         <img className="slidesOne" src={ ff7 }  />
+        <h1 className="title-header">FF7 Resu-Maker</h1>
+        <ul className="list-tech">
+            <li>React</li>
+            <li>Redux</li>
+        </ul>
         </div>
       </div>
       
