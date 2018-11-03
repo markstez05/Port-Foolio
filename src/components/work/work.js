@@ -24,7 +24,7 @@ class Work extends Component {
         x[this.myIndex - 1].style.opacity = "1";
         x[this.myIndex - 1].style.transition = "";
         x[this.myIndex - 1].style.transform = "";
-        setTimeout(this.carousel, 3500);
+        setTimeout(this.carousel, 4500);
     }
     myIndexTwo = 0;
     carouselTwo = () =>{
@@ -39,13 +39,13 @@ class Work extends Component {
         y[this.myIndexTwo - 1].style.opacity = "1";
         y[this.myIndexTwo - 1].style.transition = "";
         y[this.myIndexTwo - 1].style.transform = "";
-        setTimeout(this.carouselTwo, 3500);
+        setTimeout(this.carouselTwo, 4500);
     }
 
     render() {  
     return (
       <div id="work" className="work-container">
-        <h2>FF7 Resu-Maker</h2>
+        <h2 className="project-header">Projects</h2>
       <div className="slide-div">
         <img className="slides" src={ ff7login }  />
         <img className="slides" src={ ff7menu } />
