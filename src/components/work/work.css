@@ -1,0 +1,38 @@
+.work-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+    background-color: rgba(105, 105, 105, 0.74);
+    width: 100%;
+}
+.slide-div{
+    margin: auto;
+    display: flex;
+    width: 500px;
+    height: 400px;
+}
+.slides{
+    margin: auto;
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    border-radius: 15px;
+    transition: ease-in-out 2s;
+    width: 500px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px rgb(85, 84, 84);
+}
+.slidesOne{
+    margin: auto;
+    position: absolute;
+    top: 7%;
+    right: 7%;
+    border-radius: 15px;
+    transition: ease-in-out 2s;
+    width: 500px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px rgb(85, 84, 84);
+}
+

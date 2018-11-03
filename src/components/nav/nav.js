@@ -8,6 +8,8 @@ class NavBar extends Component{
     isTop: true,
   };
 
+
+
   componentDidMount() {
     document.addEventListener('scroll', () => {
     const isTop = window.scrollY < 450;
@@ -24,8 +26,11 @@ class NavBar extends Component{
             });
         });
     });
-    };
-
+  };
+  
+  scrollTop = () => {
+     document.documentElement.scrollTop = 0;
+   }
     render(){
         return(
           <div id="navdiv" className="navdiv">
@@ -38,9 +43,10 @@ class NavBar extends Component{
                 <a style={{color: !this.state.isTop ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
                   className="nav-link"
                   href="#about"><FaUser/></a>
-                <a 
-                  className="nav-link"
-                  href="#contact"><FaEnvelope/></a>
+               <a 
+               className="nav-link"
+               href="#work">
+                  <FaEnvelope className="nav-link" /></a>
             </div>
             <div className="navbar2">
             <a

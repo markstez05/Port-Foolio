@@ -3,6 +3,7 @@ import './App.css';
 import Main from "./components/main/main"
 import Landing from "./components/landing/landing"
 import Nav from "./components/nav/nav";
+import Work from "./components/work/work"
 import { BrowserRouter as Router } from "react-router-dom";
 import { Route } from "react-router-dom";
 
@@ -16,6 +17,7 @@ class App extends Component {
       <Nav />
       <Main />
       <Route exact path="/" component={Landing} />
+      <Work />
       </div>
       </Router>
     );
