@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import "./work.css";
-import ff7menu from "../../images/ff7 menu.png"
-import ff7login from "../../images/FF7 Logi.png"
-import ff7 from "../../images/FF7.png"
+import ff7menu from "../../images/ff7 menu.png";
+import ff7login from "../../images/FF7 Logi.png";
+import ff7 from "../../images/FF7.png";
+import map from "../../images/Map.png";
+import mapProfile from "../../images/Map Profile.png";
+import list from "../../images/List.png";
 
 class Work extends Component {
 
@@ -24,7 +27,7 @@ class Work extends Component {
         x[this.myIndex - 1].style.opacity = "1";
         x[this.myIndex - 1].style.transition = "";
         x[this.myIndex - 1].style.transform = "";
-        setTimeout(this.carousel, 4500);
+        setTimeout(this.carousel, 4000);
     }
     myIndexTwo = 0;
     carouselTwo = () =>{
@@ -47,9 +50,14 @@ class Work extends Component {
       <div id="work" className="work-container">
         <h2 className="project-header">Projects</h2>
       <div className="slide-div">
-        <img className="slides" src={ ff7login }  />
-        <img className="slides" src={ ff7menu } />
-        <img className="slides" src={ ff7 }  />
+        <img className="slides" src={ mapProfile }  />
+        <img className="slides" src={ list } />
+        <img className="slides" src={ map }  />
+        <h1 className="title-header">Atlas Map</h1>
+        <ul className="list-tech">
+            <li>React</li>
+            <li>Redux</li>
+        </ul>
         </div>
       <div className="slide-div2">
         <img className="slidesOne" src={ ff7login }  />
