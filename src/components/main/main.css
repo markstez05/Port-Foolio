@@ -18,7 +18,7 @@
     position: fixed; */
     width: 100%;
     height: 100vh;
-    background-color:rgba(165, 165, 165, 0.425);
+    background-color:rgba(36, 36, 36, 0.644);
     z-index: 2;
 }
 .fall{
@@ -33,11 +33,11 @@
     opacity: 1;
 }
 .logobig{
+    /* position: relative; */
+    margin-top: 15vh;
     opacity: 1;
-    position: relative;
-    margin-top: 50px;
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
 }
 .container{
     margin-top: 16px;
@@ -51,23 +51,25 @@
 }
 .bar{
     margin: auto;
-    margin-top: -9px;
-    width: 2px;
+    margin-top: -11px;
+    width: 3px;
     height: 50px;
-    background-color: rgb(119, 73, 3);
+    background-color: #95531E;
 }
 .box1{
-    border-radius: 3px;
     margin: auto;
-    color: rgb(233, 232, 232);
+    color: rgb(51, 155, 153);
     font-family: Koho;
     font-weight: 400;
-    font-size: 2rem;
-    border-top: 2px solid rgb(124, 79, 12);
-    width: 10%;
+    font-size: 4.2rem;
+    border-top: 3px solid #95531E;
+    /* border-bottom: 3px solid #95531E; */
+    width: 400px;
 }
 .welcome{
-    margin-top: 5px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    border-radius: 0px;
 }
 @keyframes temp {
     50% {box-shadow: 3px 3px 25px 5px #00ffffc2;}

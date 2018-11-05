@@ -48,20 +48,48 @@ class Work extends Component {
         <img className="slides" src={ list } />
         <img className="slides" src={ map }  />
         <h1 className="title-header">Atlas Map</h1>
-        <ul className="list-tech">
-            <li>React</li>
-            <li>Redux</li>
-        </ul>
+        <div className="tech-list">
+        <div className="list-tech">
+            <p>React</p>
+            <p>Redux</p>
+        </div>
+        <div className="list-tech">
+            <p>Python</p>
+            <p>Django</p>
+        </div>
+        <div className="list-tech">
+            <p>Google-Maps</p>
+            <p>React-Maps</p>
+        </div>
+        <div className="list-tech">
+            <p>SASS</p>
+            <p>JWT</p>
+        </div>
+        </div>
         </div>
       <div className="slide-div2">
         <img className="slidesOne" src={ ff7login }  />
         <img className="slidesOne" src={ ff7menu } />
         <img className="slidesOne" src={ ff7 }  />
         <h1 className="title-header">FF7 Resu-Maker</h1>
-        <ul className="list-tech">
-            <li>React</li>
-            <li>Redux</li>
-        </ul>
+        <div className="tech-list">
+        <div className="list-tech">
+            <p>React</p>
+            <p>Redux</p>
+        </div>
+        <div className="list-tech">
+            <p>Node.Js</p>
+            <p>Express</p>
+        </div>
+        <div className="list-tech">
+            <p>JWT</p>
+            <p>Passport</p>
+        </div>
+        <div className="list-tech">
+            <p>Bcrypt</p>
+            <p>Mongoose</p>
+        </div>
+        </div>
         </div>
       </div>
       

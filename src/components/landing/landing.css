@@ -276,7 +276,7 @@ span{
     color: white;
 }
 .name{
-    color:rgba(221, 221, 221, 0);
+    color:rgb(221, 221, 221);
     margin-top: 40px;
     font-size: 1.5rem;
     margin-right: 19px;

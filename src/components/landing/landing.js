@@ -87,7 +87,7 @@ class Landing extends Component {
       <div id="about" className="landing">
       <h2 className="project-header2">About</h2>
       <div className="contain">
-           <div className="header"><p><span className="header-text" id="lorem2">Hi<span>,</span> I<span>'</span>m </span><strong>Mark Stesney</strong></p><p><span className="header-text" id="lorem1" >Web Developer <span>/ </span>Designer <span>/ </span></span>Full Stack Engineer</p>
+           <div className="header"><p><span className="header-text" id="lorem2">Hi<span>,</span> I<span>'</span>m </span><strong>Mark Stesney</strong></p><p><span className="header-text" id="lorem1" >Developer <span>/ </span>Creator <span>/ </span></span>Full Stack Engineer</p>
       <p id="lorem" className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
           
@@ -164,7 +164,7 @@ class Landing extends Component {
             <div className="tech-box2">
             <ul>
               <li className="tech-title2">HTML</li>
-              <li className="tech-title2">SCSS</li>
+              <li className="tech-title2">JavaScript</li>
               <li className="tech-title2">BootStrap</li>
               <li className="tech-title2">SASS/LESS</li>
             </ul>
@@ -173,24 +173,24 @@ class Landing extends Component {
             <ul>
               <li className="tech-title2">Express</li>
               <li className="tech-title2">Django</li>
-              <li className="tech-title2">JavaScript</li>
               <li className="tech-title2">Python</li>
+            <li className="tech-title2">Mongoose</li>
             </ul>
             </div>
             <div className="tech-box2">
             <ul>
-              <li className="tech-title2">Express</li>
-              <li className="tech-title2">Django</li>
-              <li className="tech-title2">JavaScript</li>
-              <li className="tech-title2">Python</li>
+              <li className="tech-title2">SQL</li>
+              <li className="tech-title2">OAuth</li>
+              <li className="tech-title2">JWT</li>
+              <li className="tech-title2">REST</li>
             </ul>
             </div>
             <div className="tech-box2">
             <ul>
-              <li className="tech-title2">Express</li>
-              <li className="tech-title2">Django</li>
-              <li className="tech-title2">JavaScript</li>
-              <li className="tech-title2">Python</li>
+              <li className="tech-title2">Heroku</li>
+              <li className="tech-title2">Firebase</li>
+              <li className="tech-title2">Netlify</li>
+              <li className="tech-title2">Babel</li>
             </ul>
             </div>
             </div>
