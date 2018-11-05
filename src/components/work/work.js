@@ -20,13 +20,10 @@ class Work extends Component {
         let x = document.getElementsByClassName("slides");
         for (i = 0; i < x.length; i++) {
             x[i].style.opacity = "0";
-            x[i].style.transform = "none";
         }
         this.myIndex++;
         if (this.myIndex > x.length) { this.myIndex = 1 }
-        x[this.myIndex - 1].style.opacity = "1";
-        x[this.myIndex - 1].style.transition = "";
-        x[this.myIndex - 1].style.transform = "";
+        x[this.myIndex - 1].style.opacity= "";
         setTimeout(this.carousel, 4000);
     }
     myIndexTwo = 0;
@@ -35,13 +32,10 @@ class Work extends Component {
         let y = document.getElementsByClassName("slidesOne");
         for (j = 0; j < y.length; j++) {
             y[j].style.opacity = "0";
-            y[j].style.transform = "none";
         }
         this.myIndexTwo++;
         if (this.myIndexTwo > y.length) { this.myIndexTwo = 1 }
         y[this.myIndexTwo - 1].style.opacity = "1";
-        y[this.myIndexTwo - 1].style.transition = "";
-        y[this.myIndexTwo - 1].style.transform = "";
         setTimeout(this.carouselTwo, 4500);
     }
 
