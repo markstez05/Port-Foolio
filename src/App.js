@@ -15,9 +15,9 @@ class App extends Component {
       <div  id="spinBig" className="spinner"></div>
       <div id="spinSmall" className="spinner1"></div>
       <Nav />
-      <Main />
-      <Route exact path="/" component={Landing} />
-      <Work />
+      <Route  component={Main} />
+      <Route  component={Landing} />
+      <Route  component={Work}/>
       </div>
       </Router>
     );

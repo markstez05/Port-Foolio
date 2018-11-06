@@ -42,7 +42,8 @@ class NavBar extends Component{
                   href="#home"><FaHome/></a>
                 <a style={{color: !this.state.isTop ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
                   className="nav-link"
-                  href="#about"><FaUser/></a>
+                  href="#about">
+                  <FaUser/></a>
                <a 
                className="nav-link"
                href="#work">

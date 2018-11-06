@@ -4,8 +4,8 @@
     flex-direction: row;
     margin: auto;
     width: 100%;
-    background-color:rgba(14, 14, 14, 0.233);
-    /* background-color:rgba(36, 36, 36, 0.171); */
+    /* background-color:rgba(14, 14, 14, 0.233); */
+    background-color:rgba(145, 145, 145, 0.116);
     font-family: 'Lato', sans-serif;
     z-index: 2;
     overflow-y: hidden;
@@ -105,7 +105,7 @@ span{
 	border-right-color:  rgba(155, 85, 20, 1);
     border-top-color: rgba(155, 85, 20, 1);
     border-radius: 100%;
-    box-shadow: inset 1px 0px 5px 3px rgb(41, 41, 41);
+    box-shadow: inset 1px 0px 3px 2px rgba(9, 247, 255, 0.822);
     animation-name:spin;
     animation-duration: 2s; 
     animation-delay: .1s; 
@@ -124,7 +124,7 @@ span{
 	border-right-color: rgba(0, 128, 128, 1);
     border-top-color: rgba(0, 128, 128, 1);
     border-radius: 100%;
-    box-shadow: 1px 0px 5px 3px rgb(41, 41, 41);
+    box-shadow: 1px 0px 3px 2px rgba(56, 253, 237, 0.836);
     animation-name:spinTwo;
     animation-duration: 2s; 
     animation-delay: .1s; 
