@@ -27,19 +27,19 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-content: center;
     position: absolute;
     top: 20%;
     left: 10%;
     transition: all ease-in .5s;
     width: 420px;
-    border-top: 20px solid rgb(201, 121, 16);
+    border-top: 10px solid rgb(201, 121, 16);
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     background-color: #008080;
     color: rgb(230, 230, 230);
-    height: 470px;
+    height: 480px;
 }
 .slide-div2{
     border-radius: 5px;
@@ -47,19 +47,19 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-content: center;
     position: absolute;
     top: 20%;
     right: 10%;
     transition: ease-in-out .5s;
     width: 420px;
-    border-top: 20px solid rgb(201, 121, 16);
+    border-top: 10px solid rgb(201, 121, 16);
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     background-color:#008080;
     color: rgb(230, 230, 230);
-    height: 470px;
+    height: 480px;
 }
             .slide-div:hover{
                 transform: translate(0 , -3%);
@@ -72,7 +72,8 @@
     box-shadow: 2px 2px 2px 2px rgb(75, 75, 75);
 }
 .title-header{
-    border-top: 1px solid rgb(148, 148, 148);
+
+    /* border-top: 1px solid rgb(148, 148, 148); */
     border-bottom: 1px solid rgb(146, 146, 146);
     background-color: rgb(201, 121, 16);
     font-weight: 400;
@@ -81,14 +82,14 @@
     color: rgb(233, 233, 233);
     width: 100%;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
     font-family: Montserrat;
     font-size: 2rem;
 }
 .tech-list{
-   
+   border-top: 1px solid rgb(207, 207, 207);
     display: flex;
-    margin-top: -10px;
+    margin-top: 10px;
     margin-bottom: 0px;
 
 }
@@ -101,10 +102,10 @@
 }
 .slides{
     border: 1px solid rgba(99, 99, 99, 0.9);
-    box-shadow: 0px 0px 5px 2px rgb(29, 29, 29);
+    box-shadow: 0px 0px 1px 2px rgb(29, 29, 29);
     margin: auto;
     position: absolute;
-    top: 2.5%;
+    top: 12.5%;
     left: 2.5%;
     border-radius: 5px;
     transition: ease-in all .5s;
@@ -113,11 +114,11 @@
 }
 .slidesOne{
     border: 1px solid rgba(99, 99, 99, 0.9);
-    box-shadow: 0px 0px 5px 2px rgb(26, 26, 26);
+    box-shadow: 0px 0px 1px 2px rgb(26, 26, 26);
     transition: ease-in all .5s;
     margin: auto;
     position: absolute;
-    top: 2.5%;
+    top: 12.5%;
     right: 2.5%;
     border-radius: 5px;;
     width: 400px;

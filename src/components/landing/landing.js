@@ -26,7 +26,7 @@ class Landing extends Component {
         document.getElementById("info").style.transition = " all ease-in 1.6s";
         document.getElementById("info").style.transitionDelay = "2.7s";
         document.getElementById("lorem").style.opacity = "0";
-        document.getElementById("lorem").style.transition = "all ease-out .8s";    
+        document.getElementById("lorem").style.transition = "all ease-out .5s";    
         document.getElementById("lorem").style.transitionDelay = "1.45s";  
         document.getElementById("lorem1").style.opacity = "0";
         document.getElementById("lorem1").style.transition = "all ease-out 1.45s";    
