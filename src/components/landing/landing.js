@@ -88,7 +88,10 @@ class Landing extends Component {
       <h2 className="project-header2">About</h2>
       <div className="contain">
            <div className="header"><p><span className="header-text" id="lorem2">Hi<span>,</span> I<span>'</span>m </span><strong>Mark Stesney</strong></p><p><span className="header-text" id="lorem1" >Developer <span>/ </span>Creator <span>/ </span></span>Full Stack Engineer</p>
-      <p id="lorem" className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p id="lorem" className="lorem">
+      My skills include Full Stack Development as well as supervising and facilitating multi-faceted projects, troubleshooting an array
+of technological issues, managing and developing groups of people, orchestrating positive client experiences, and engaging in constructive analysis and feedback. I have 10 years of experience in office management and administration in addition to the work I’ve done in project development. I am known as a charismatic leader with a practical approach to problem solving, a desire to develop myself and others, and a strong will to utilize and advance my skills and talents in the tech world.
+      </p>
       </div>
           
         <div   className="profile"> 
