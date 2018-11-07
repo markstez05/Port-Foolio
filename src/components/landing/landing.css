@@ -6,7 +6,7 @@
     width: 100%;
     /* background-color:rgba(14, 14, 14, 0.233); */
     background-color:rgba(145, 145, 145, 0.116);
-    font-family: 'Lato', sans-serif;
+    font-family: Lato;
     z-index: 2;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -105,7 +105,7 @@ span{
 	border-right-color:  rgba(155, 85, 20, 1);
     border-top-color: rgba(155, 85, 20, 1);
     border-radius: 100%;
-    box-shadow: inset 1px 0px 3px 2px rgba(9, 247, 255, 0.822);
+    box-shadow: inset 1px 0px 3px 2px rgba(9, 247, 255, 0.637);
     animation-name:spin;
     animation-duration: 2s; 
     animation-delay: .1s; 
@@ -124,7 +124,7 @@ span{
 	border-right-color: rgba(0, 128, 128, 1);
     border-top-color: rgba(0, 128, 128, 1);
     border-radius: 100%;
-    box-shadow: 1px 0px 3px 2px rgba(56, 253, 237, 0.836);
+    box-shadow: 1px 0px 3px 2px rgba(56, 253, 237, 0.575);
     animation-name:spinTwo;
     animation-duration: 2s; 
     animation-delay: .1s; 
@@ -153,7 +153,7 @@ span{
     border-left: 2px solid rgba(155, 85, 20, 1.904); */
 }
 .lorem{
-    font-family: Comfortaa;
+    font-family: Lato;
     float: right;
     font-size: 1rem;
     width: 610px;
