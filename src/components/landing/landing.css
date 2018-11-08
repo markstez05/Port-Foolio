@@ -5,7 +5,7 @@
     margin: auto;
     width: 100%;
     /* background-color:rgba(14, 14, 14, 0.233); */
-    background-color:rgba(145, 145, 145, 0.116);
+    background-color:rgba(145, 145, 145, 1);
     font-family: Lato;
     z-index: 2;
     overflow-y: hidden;
