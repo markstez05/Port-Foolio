@@ -2,7 +2,7 @@
 Personal Portfolio Site 
 
 # Tech
-React HTML CSS
+React HTML CSS Javascript
 
 # Get Started
 1. Clone Repo
