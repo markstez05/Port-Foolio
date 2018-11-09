@@ -1,10 +1,10 @@
-## Port-Foolio
+# Port-Foolio
 Personal Portfolio Site 
 
-# Tech
+## Tech
 React HTML CSS Javascript
 
-# Get Started
+## Get Started
 1. Clone Repo
 2. `yarn install`
 3. Happy Hacking!
