@@ -2,7 +2,7 @@
 Personal Portfolio Site 
 
 ## Tech
-React HTML CSS Javascript 
+React HTML CSS Javascript   
 `Yarn` (for dependencies)
 
 ## Get Started
