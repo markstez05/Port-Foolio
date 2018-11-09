@@ -4,7 +4,7 @@
     position: relative;
     margin: auto;
     z-index: 0;
-    background-color:rgb(36, 36, 36, .9);
+    background-color:rgba(34, 34, 34, 0.95);
     /* background-color:rgb(182, 181, 181); */
     /* background-color:rgba(160, 160, 160, 0.021); */
     width: 100%;
@@ -34,12 +34,12 @@
     top: 20%;
     left: 10%;
     transition: all ease-in .5s;
-    width: 420px;
+    width: 405px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     background-color: #008080;
     color: rgb(230, 230, 230);
-    height: 480px;
+    height: 460px;
 }
 .slide-div2{
     border-radius: 5px;
@@ -53,23 +53,23 @@
     top: 20%;
     right: 10%;
     transition: ease-in-out .5s;
-    width: 420px;
+    width: 405px;
     /* border-top: 10px solid rgb(201, 121, 16); */
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     background-color:#008080;
     color: rgb(230, 230, 230);
-    height: 480px;
+    height: 460px;
 }
             .slide-div:hover{
                 transform: translate(0 , -3%);
                 transition: all ease-in .4s;
-                box-shadow: 2px 2px 2px 2px rgb(77, 77, 77);
+                box-shadow: 3px 5px 5px 4px rgb(10, 10, 10);
             }
 .slide-div2:hover{
     transform: translate(0 , -3%);
     transition: all ease-in .4s;
-    box-shadow: 2px 2px 2px 2px rgb(75, 75, 75);
+    box-shadow: 3px 5px 5px 4px rgb(10, 10, 10);
 }
 .title-header{
     padding-top: 5px;
@@ -105,8 +105,8 @@
     /* box-shadow: 0px 0px 1px 2px rgb(63, 63, 63); */
     margin: auto;
     position: absolute;
-    top: 12.5%;
-    left: 2.5%;
+    top: 12%;
+    left: .5%;
     border-radius: 5px;
     transition: ease-in all .5s;
     width: 400px;
@@ -118,8 +118,8 @@
     transition: ease-in all .5s;
     margin: auto;
     position: absolute;
-    top: 12.5%;
-    right: 2.5%;
+    top: 12%;
+    right: .5%;
     border-radius: 5px;;
     width: 400px;
     height: 300px;
