@@ -37,7 +37,7 @@ class Work extends Component {
         this.myIndexTwo++;
         if (this.myIndexTwo > y.length) { this.myIndexTwo = 1 }
         y[this.myIndexTwo - 1].style.opacity = "1";
-        setTimeout(this.carouselTwo, 4500);
+        setTimeout(this.carouselTwo, 3000);
     }
 
     render() {  
@@ -68,7 +68,7 @@ class Work extends Component {
         </div>
         </div>
         </div>
-        <a
+        <a   className="visited"
             target="_blank"
             rel="noopener noreferrer"
             href="https://jeremiahsite.herokuapp.com/">

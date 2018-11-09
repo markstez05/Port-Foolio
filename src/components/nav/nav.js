@@ -1,20 +1,30 @@
 import React, { Component } from 'react';
 import "./nav.css";
-import { FaHome, FaGithub, FaLinkedin, FaEnvelope, FaPhoneSquare, FaUser } from "react-icons/fa";
+import { FaBriefcase, FaHome, FaGithub, FaLinkedin, FaEnvelope, FaPhoneSquare, FaUser } from "react-icons/fa";
 import logo from "../../images/logo.png"
 
 class NavBar extends Component{
     state = {
     isTop: true,
+    isMid: false,
+    isBot: false
   };
 
 
 
   componentDidMount() {
     document.addEventListener('scroll', () => {
-    const isTop = window.scrollY < 450;
+    const isTop = window.scrollY < 400;
+    const isMid = window.scrollY > 400 && window.scrollY < 1100;
+    const isBot = window.scrollY > 1100;
     if (isTop !== this.state.isTop) {
       this.setState({ isTop });
+    }
+    if (isMid !== this.state.isMid) {
+      this.setState({ isMid });
+    }
+    if (isBot !== this.state.isBot) {
+      this.setState({ isBot });
     }
       })
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -39,15 +49,16 @@ class NavBar extends Component{
             <div className="navbar1">
                 <a style={{color: this.state.isTop ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
                   className="nav-link"
-                  href="#home"><FaHome/></a>
-                <a style={{color: !this.state.isTop ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
+                  href="#home">
+                  <FaHome/></a>
+                <a style={{color: this.state.isMid ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
                   className="nav-link"
                   href="#about">
                   <FaUser/></a>
-               <a 
+               <a style={{color: this.state.isBot ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
                className="nav-link"
                href="#work">
-                  <FaEnvelope className="nav-link" /></a>
+                  <FaBriefcase/></a>
             </div>
             <div className="navbar2">
             <a
