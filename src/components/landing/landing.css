@@ -278,7 +278,7 @@ span{
     color: white;
 }
 .name{
-    color:rgb(221, 221, 221);
+    color:rgb(221, 220, 220);
     margin-top: 40px;
     font-size: 1.5rem;
     margin-right: 19px;
@@ -343,7 +343,7 @@ span{
 }
 .tech-title{
     margin-left: 4px;
-    color:rgb(221, 220, 220);
+    color:rgb(240, 238, 238);
     font-size: 1rem;
     font-weight: 400;
 }

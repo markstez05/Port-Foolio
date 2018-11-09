@@ -4,6 +4,7 @@ import ff7menu from "../../images/ff7 menu.png";
 import ff7login from "../../images/FF7 Logi.png";
 import ff7 from "../../images/FF7.png";
 import map from "../../images/Map.png";
+import jeremiah from "../../images/Static.png";
 import mapProfile from "../../images/Map Profile.png";
 import list from "../../images/List.png";
 
@@ -67,6 +68,30 @@ class Work extends Component {
         </div>
         </div>
         </div>
+        <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://jeremiahsite.herokuapp.com/">
+        <div className="slide-div3">
+        <img className="slides3" src={ jeremiah }  />
+        <h1 className="title-header">Static Site</h1>
+        <div className="tech-list">
+        <div className="list-tech">
+            <p>React</p>
+        </div>
+        <div className="list-tech">
+            <p>SASS</p>
+        </div>
+        <div className="list-tech">
+            <p>HTML</p>
+            <p></p>
+        </div>
+        <div className="list-tech">
+            <p>JavaScript</p>
+        </div>
+        </div>
+        </div>
+        </a>
       <div className="slide-div2">
         <img className="slidesOne" src={ ff7login }  />
         <img className="slidesOne" src={ ff7menu } />
