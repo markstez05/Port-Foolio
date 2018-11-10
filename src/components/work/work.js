@@ -7,6 +7,9 @@ import map from "../../images/Map.png";
 import jeremiah from "../../images/Static.png";
 import mapProfile from "../../images/Map Profile.png";
 import list from "../../images/List.png";
+import react from "../../images/react.png";
+import redux from "../../images/redux.png";
+import node from "../../images/node.png";
 
 class Work extends Component {
 
@@ -51,19 +54,19 @@ class Work extends Component {
         <h1 className="title-header">Atlas Map</h1>
         <div className="tech-list">
         <div className="list-tech">
-            <p>React</p>
+        <img className="work-icon" src={react} alt="react"></img>
             <p>Redux</p>
         </div>
         <div className="list-tech">
-            <p>Python</p>
+        <img className="work-icon" src={react} alt="react"></img>
             <p>Django</p>
         </div>
         <div className="list-tech">
-            <p>Google-Maps</p>
+        <img className="work-icon" src={react} alt="react"></img>
             <p>React-Maps</p>
         </div>
         <div className="list-tech">
-            <p>SASS</p>
+        <img className="work-icon" src={react} alt="react"></img>
             <p>JWT</p>
         </div>
         </div>
@@ -77,17 +80,18 @@ class Work extends Component {
         <h1 className="title-header">Static Site</h1>
         <div className="tech-list">
         <div className="list-tech">
+            <img className="work-icon" src={react} alt="react"></img>
             <p>React</p>
         </div>
         <div className="list-tech">
-            <p>SASS</p>
+        <img className="work-icon" src={react} alt="react"></img>
         </div>
         <div className="list-tech">
-            <p>HTML</p>
+        <img className="work-icon" src={react} alt="react"></img>
             <p></p>
         </div>
         <div className="list-tech">
-            <p>JavaScript</p>
+        <img className="work-icon" src={react} alt="react"></img>
         </div>
         </div>
         </div>
@@ -99,19 +103,19 @@ class Work extends Component {
         <h1 className="title-header">FF7 Resu-Maker</h1>
         <div className="tech-list">
         <div className="list-tech">
+        <img className="work-icon" src={react} alt="react"></img>
             <p>React</p>
+        </div>
+        <div className="list-tech">
+        <img className="work-icon" src={redux} alt="react"></img>
             <p>Redux</p>
         </div>
         <div className="list-tech">
-            <p>Node.Js</p>
+        <img className="work-icon" src={node} alt="react"></img>
             <p>Express</p>
         </div>
         <div className="list-tech">
-            <p>JWT</p>
-            <p>Passport</p>
-        </div>
-        <div className="list-tech">
-            <p>Bcrypt</p>
+        <img className="work-icon" src={react} alt="react"></img>
             <p>Mongoose</p>
         </div>
         </div>
