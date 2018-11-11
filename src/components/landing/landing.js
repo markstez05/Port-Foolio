@@ -193,7 +193,7 @@ of technological issues, managing and developing groups of people, orchestrating
               <li className="tech-title2">Heroku</li>
               <li className="tech-title2">Firebase</li>
               <li className="tech-title2">Netlify</li>
-              <li className="tech-title2">Babel</li>
+              <li className="tech-title2">VSCode</li>
             </ul>
             </div>
             </div>

@@ -15,6 +15,9 @@ render () {
         <img src={ logoAlt } alt="logobig" className="logobig"></img>
         <div className="bar"></div>
         <div className="box1">
+        <div className="box-contain">
+        <div className="box"></div>
+        </div>
         <p className="welcome">Mark Stesney</p>
         </div>
         </div>

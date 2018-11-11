@@ -4,9 +4,8 @@
     flex-direction: row;
     margin: auto;
     width: 100%;
-    /* background-color:rgba(14, 14, 14, 0.233); */
     background-color:rgba(145, 145, 145, 1);
-    background-image: linear-gradient(rgb(145, 145, 145), rgb(130, 130, 130));
+    background-image: linear-gradient(rgb(145, 145, 145), rgb(158, 156, 156));
     font-family: Lato;
     z-index: 2;
     overflow-y: hidden;
@@ -112,7 +111,7 @@ span{
 	border-right-color:  rgba(155, 85, 20, 1);
     border-top-color: rgba(155, 85, 20, 1);
     border-radius: 100%;
-    box-shadow: inset 1px 0px 3px 2px rgba(9, 247, 255, 0.637);
+    /* box-shadow: inset 1px 0px 3px 2px rgba(9, 247, 255, 0.637); */
     animation-name:spin;
     animation-duration: 2s; 
     animation-delay: .1s; 
@@ -131,7 +130,7 @@ span{
 	border-right-color: rgba(0, 128, 128, 1);
     border-top-color: rgba(0, 128, 128, 1);
     border-radius: 100%;
-    box-shadow: 1px 0px 3px 2px rgba(56, 253, 237, 0.575);
+    /* box-shadow: 1px 0px 3px 2px rgba(56, 253, 237, 0.575); */
     animation-name:spinTwo;
     animation-duration: 2s; 
     animation-delay: .1s; 
@@ -162,7 +161,7 @@ span{
 .lorem{
     font-family: Lato;
     float: right;
-    font-size: 1rem;
+    font-size: 1.1rem;
     width: 610px;
     text-align: right;
 }
@@ -241,7 +240,7 @@ span{
     margin-top:32px;
 }
 .email{
-    color:rgb(3, 158, 158);
+    color:#3EE7E7;
     margin-top: 15px;
     text-decoration: none;
     font-size: .85rem;
@@ -285,7 +284,7 @@ span{
     color: white;
 }
 .name{
-    color:rgb(221, 220, 220);
+    color:rgb(240, 240, 240);
     margin-top: 40px;
     font-size: 1.5rem;
     margin-right: 19px;
@@ -385,7 +384,7 @@ span{
     border-top: 2px solid white;
 }
 .resume{
-    background-color: rgba(17, 143, 143, .8);
+    background-color:rgba(17, 143, 143);
     margin-left: 18px;
     display: flex;
     justify-content: center;
@@ -399,17 +398,29 @@ span{
     z-index: 2;
 }
 .resume:hover{
-    background-color:rgba(38, 255, 255, 0.8);
+    background-color:rgb(35, 235, 235);
     cursor: pointer;
-    transform: scale(1.);
-    transition: all ease-in .3s;
-    color: black;
+    transform: scale(1);
+    transition: all ease-in .4s;
+    color: rgb(99, 99, 99);
 }
 .icons2{
     margin-right: 10px;
     width: 20px;
     height: 20px;
 }
+ul {
+    list-style: none;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: #2FE8E8;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
 @keyframes spin {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }

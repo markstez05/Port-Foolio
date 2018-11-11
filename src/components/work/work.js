@@ -10,6 +10,13 @@ import list from "../../images/List.png";
 import react from "../../images/react.png";
 import redux from "../../images/redux.png";
 import node from "../../images/node.png";
+import jwt from "../../images/JWT.png";
+import css from "../../images/css.png";
+import html from "../../images/html.png";
+import js from "../../images/js.png";
+import django from "../../images/django.png";
+import python from "../../images/python.png";
+import gmaps from "../../images/gmaps.png";
 
 class Work extends Component {
 
@@ -55,19 +62,19 @@ class Work extends Component {
         <div className="tech-list">
         <div className="list-tech">
         <img className="work-icon" src={react} alt="react"></img>
+            <p>React</p>
+        </div>
+        <div className="list-tech">
+        <img className="work-icon" src={redux} alt="react"></img>
             <p>Redux</p>
         </div>
         <div className="list-tech">
-        <img className="work-icon" src={react} alt="react"></img>
-            <p>Django</p>
+        <img className="work-icon" src={python} alt="react"></img>
+            <p>Python</p>
         </div>
         <div className="list-tech">
-        <img className="work-icon" src={react} alt="react"></img>
-            <p>React-Maps</p>
-        </div>
-        <div className="list-tech">
-        <img className="work-icon" src={react} alt="react"></img>
-            <p>JWT</p>
+        <img className="work-icon" src={gmaps} alt="react"></img>
+            <p>Google Maps</p>
         </div>
         </div>
         </div>
@@ -84,14 +91,16 @@ class Work extends Component {
             <p>React</p>
         </div>
         <div className="list-tech">
-        <img className="work-icon" src={react} alt="react"></img>
+        <img className="work-icon" src={js} alt="react"></img>
+        <p>JavaScript</p>
         </div>
         <div className="list-tech">
-        <img className="work-icon" src={react} alt="react"></img>
-            <p></p>
+        <img className="work-icon" src={html} alt="react"></img>
+            <p>HTML</p>
         </div>
         <div className="list-tech">
-        <img className="work-icon" src={react} alt="react"></img>
+        <img className="work-icon" src={css} alt="react"></img>
+        <p>CSS</p>
         </div>
         </div>
         </div>
@@ -115,8 +124,8 @@ class Work extends Component {
             <p>Express</p>
         </div>
         <div className="list-tech">
-        <img className="work-icon" src={react} alt="react"></img>
-            <p>Mongoose</p>
+        <img className="work-icon" src={jwt} alt="react"></img>
+            <p>JWT</p>
         </div>
         </div>
         </div>
