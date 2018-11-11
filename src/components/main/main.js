@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import "./main.css"
-import logoBig from "../../images/LogoBig.png"
 import code from "../../images/code.jpeg"
 import logoAlt from "../../images/logoAlt.png"
 
