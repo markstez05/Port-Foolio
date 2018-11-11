@@ -6,19 +6,26 @@
     width: 100%;
     /* background-color:rgba(14, 14, 14, 0.233); */
     background-color:rgba(145, 145, 145, 1);
+    background-image: linear-gradient(rgb(145, 145, 145), rgb(130, 130, 130));
     font-family: Lato;
     z-index: 2;
     overflow-y: hidden;
     overflow-x: hidden;
 }
 .project-header2{
-    margin-top: 10px;
-    padding: 5px;
+    box-shadow: 1px 3px 5px 2px rgb(46, 46, 46, .8);
+    text-align: right;
+    background-image: linear-gradient(rgb(12, 112, 112),rgb(19, 131, 129));
+    transform: translate(-85%,0);
+    width: 900px;
+    margin-top: 0px;
+    padding: 10px;
     position: absolute;
     left: 10%;
     align-self: flex-start;
     color: rgb(240, 240, 240);
-    border-bottom: 3px solid #13C1C2;
+    /* border-right: 3px solid rgba(155, 85, 20, 1);
+    border-bottom: 3px solid rgba(155, 85, 20, 1); */
     font-family: Koho;
     font-weight: 400;
     font-size: 3rem;
@@ -331,7 +338,8 @@ span{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 95%; 
+    margin-left: -20px;
+    width: 100%; 
 }
 .tech{
     padding: 15px;
