@@ -86,10 +86,7 @@ class Work extends Component {
         <img className="slides3" src={ jeremiah }  />
         <h1 className="title-header">Static Site</h1>
         <div className="tech-list">
-        <div className="list-tech">
-            <img className="work-icon" src={react} alt="react"></img>
-            <p>React</p>
-        </div>
+
         <div className="list-tech">
         <img className="work-icon" src={js} alt="react"></img>
         <p>JavaScript</p>

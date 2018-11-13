@@ -5,33 +5,28 @@
     margin: auto;
     z-index: 0;
     background-color:rgba(73, 73, 73, 1);
-    background-image: linear-gradient(rgb(99, 99, 99), rgb(87, 87, 87));
+    background-image: linear-gradient(rgb(75, 75, 75), rgb(105, 105, 105));
     width: 100%;
     height: 700px;
 }
 .project-header{
-    box-shadow: 1px 5px 5px 2px rgb(46, 46, 46);
-    padding: 10px;
+    box-shadow: 1px 3px 5px 2px rgb(46, 46, 46, .8);
     text-align: right;
-    background-color: #11807F;
-    background-image: linear-gradient(rgb(10, 99, 99),#11807F);
-    /* border-right: 3px solid rgba(155, 85, 20, 1);
-    border-bottom: 3px solid rgba(155, 85, 20, 1); */
+    background-image: linear-gradient(rgb(12, 112, 112),rgb(19, 131, 129));
     transform: translate(-85%,0);
     width: 900px;
-    margin-top: 10px;
+    margin-top: 0px;
+    padding: 10px;
     position: relative;
-    top: -1.5%;
     left: 10%;
     align-self: flex-start;
-    color: rgb(226, 226, 226);
-    /* border-bottom: 3px solid #13C1C2; */
+    color: rgb(240, 240, 240);
     font-family: Koho;
     font-weight: 400;
     font-size: 3rem;
 }
 .slide-div{
-    background-color:#5A5A5A;
+    background-color:#008080;
     border-radius: 5px;
     border: 1px solid rgb(65, 65, 65);
     display: flex;
@@ -52,7 +47,7 @@
 
 }
 .slide-div2{
-    background-color:#5A5A5A;
+    background-color:#008080;
     border-radius: 5px;
     border: 1px solid rgb(65, 65, 65);
     display: flex;
@@ -71,7 +66,7 @@
 
 }
 .slide-div3{
-    background-color:#5A5A5A;
+    background-color:#008080;
     border-radius: 5px;
     border: 1px solid rgb(65, 65, 65);
     display: flex;
@@ -80,7 +75,7 @@
     justify-content: space-between;
     align-content: center;
     position: relative;
-    top: 8px;
+    top: 18px;
     transition: ease-in-out .5s;
     width: 400px;
     color: rgb(230, 230, 230);
@@ -113,7 +108,6 @@
     text-decoration: none;
     padding-top: 5px;
     height: 40px;
-    /* border-bottom: 1px solid rgb(146, 146, 146); */
     background-color:#9A551E;
     font-weight: 400;
     align-self: center;
@@ -136,13 +130,14 @@
 }
 .list-tech{
     width: 400px;
-    margin-bottom: 0px;
+    margin-bottom:-10px;
     margin-left: 0px;
 }
 .work-icon{
-    width: 40px;
-    height: 40px;
-    border: 3px solid #9A551E;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #9A551E;
+    background-color: #222228;
     border-radius: 100%;
 }
 .slides{
