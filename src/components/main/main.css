@@ -140,7 +140,7 @@
 
 @keyframes rotation {
     from{
-        -webkit-transform: translate(0, -45%);
+        -webkit-transform: translate(-60%, 0%);
         opacity: 0;
     }
     to{
