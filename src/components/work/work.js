@@ -14,7 +14,6 @@ import jwt from "../../images/JWT.png";
 import css from "../../images/css.png";
 import html from "../../images/html.png";
 import js from "../../images/js.png";
-import django from "../../images/django.png";
 import python from "../../images/python.png";
 import gmaps from "../../images/gmaps.png";
 
@@ -22,9 +21,17 @@ class Work extends Component {
 
     componentDidMount(){
         this.carousel();
-        this.carouselTwo();
+        this.carouselTwo();  
     }
 
+    nextSlide = () => {
+        this.slide1 = document.getElementById("div1");
+        this.slide2 = document.getElementById("div2");
+        this.slide3 = document.getElementById("div3");
+              this.slide1.className = "slide-div3";
+              this.slide2.className = "slide-div2";
+              this.slide3.className = "slide-div1";
+                }
     myIndex = 0;
     carousel =()=>{
         let i;
@@ -49,12 +56,12 @@ class Work extends Component {
         y[this.myIndexTwo - 1].style.opacity = "1";
         setTimeout(this.carouselTwo, 3000);
     }
-
+    
     render() {  
-    return (
-      <div id="work" className="work-container">
+        return (
+            <div id="work" className="work-container">
         <h2 className="project-header">Projects</h2>
-      <div className="slide-div">
+      <div id="div1" className="slide-div1">
         <img className="slides" src={ mapProfile }  />
         <img className="slides" src={ list } />
         <img className="slides" src={ map }  />
@@ -82,7 +89,7 @@ class Work extends Component {
             target="_blank"
             rel="noopener noreferrer"
             href="https://jeremiahsite.herokuapp.com/">
-        <div className="slide-div3">
+        <div id="div2" className="slide-div3">
         <img className="slides3" src={ jeremiah }  />
         <h1 className="title-header">Static Site</h1>
         <div className="tech-list">
@@ -102,7 +109,7 @@ class Work extends Component {
         </div>
         </div>
         </a>
-      <div className="slide-div2">
+      <div id="div3" className="slide-div2">
         <img className="slidesOne" src={ ff7login }  />
         <img className="slidesOne" src={ ff7menu } />
         <img className="slidesOne" src={ ff7 }  />
