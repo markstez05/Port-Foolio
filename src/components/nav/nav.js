@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import "./nav.css";
-import { FaBriefcase, FaHome, FaGithub, FaLinkedin, FaEnvelope, FaPhoneSquare, FaUser } from "react-icons/fa";
+import { FaBriefcase, FaFile , FaHome, FaGithub, FaLinkedin, FaEnvelope, FaPhoneSquare, FaUser } from "react-icons/fa";
 import logo from "../../images/logo.png"
 
 class NavBar extends Component{
     state = {
     isTop: true,
     isMid: false,
-    isBot: false
+    isBot: false,
+    isBotter: false
   };
 
 
@@ -16,7 +17,10 @@ class NavBar extends Component{
     document.addEventListener('scroll', () => {
     const isTop = window.scrollY < 400;
     const isMid = window.scrollY > 400 && window.scrollY < 1100;
-    const isBot = window.scrollY > 1100;
+    const isBot = window.scrollY > 1100 && window.scrollY < 1900;
+    const isBotter = window.scrollY > 1900 && window.scrollY < 4100;
+    
+    console.log(window.scrollY);
     if (isTop !== this.state.isTop) {
       this.setState({ isTop });
     }
@@ -25,6 +29,9 @@ class NavBar extends Component{
     }
     if (isBot !== this.state.isBot) {
       this.setState({ isBot });
+    }
+    if (isBotter !== this.state.isBotter) {
+      this.setState({ isBotter });
     }
       })
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -56,6 +63,10 @@ class NavBar extends Component{
                   href="#about">
                   <FaUser/></a>
                <a style={{color: this.state.isBot ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
+               className="nav-link"
+               href="#resume">
+                  <FaFile/></a>
+                  <a style={{color: this.state.isBotter ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
                className="nav-link"
                href="#work">
                   <FaBriefcase/></a>
