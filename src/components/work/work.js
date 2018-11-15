@@ -66,70 +66,94 @@ class Work extends Component {
         <img className="slides" src={ list } />
         <img className="slides" src={ map }  />
         <h1 className="title-header">Atlas Map</h1>
+        <p className="tech-desc">Geolocation job search application.</p>
         <div className="tech-list">
         <div className="list-tech">
+        <div className="work-icon-div">
         <img className="work-icon" src={react} alt="react"></img>
-            <p>React</p>
+            <p className="tech-title1">React</p>
+        </div>
         </div>
         <div className="list-tech">
+        <div className="work-icon-div">
         <img className="work-icon" src={redux} alt="react"></img>
-            <p>Redux</p>
+            <p className="tech-title1">Redux</p>
+            </div>
         </div>
         <div className="list-tech">
+        <div className="work-icon-div">
         <img className="work-icon" src={python} alt="react"></img>
-            <p>Python</p>
+            <p className="tech-title1">Python</p>
+            </div>
         </div>
         <div className="list-tech">
+        <div className="work-icon-div">
         <img className="work-icon" src={gmaps} alt="react"></img>
-            <p>Google Maps</p>
+            <p className="tech-title1">Google Maps</p>
+            </div>
         </div>
         </div>
         </div>
+        <div id="div2" className="slide-div3">
+        <img className="slides3" src={ jeremiah }  />
         <a   className="visited"
             target="_blank"
             rel="noopener noreferrer"
             href="https://jeremiahsite.herokuapp.com/">
-        <div id="div2" className="slide-div3">
-        <img className="slides3" src={ jeremiah }  />
         <h1 className="title-header">Static Site</h1>
-        <div className="tech-list">
-
-        <div className="list-tech">
-        <img className="work-icon" src={js} alt="react"></img>
-        <p>JavaScript</p>
-        </div>
-        <div className="list-tech">
-        <img className="work-icon" src={html} alt="react"></img>
-            <p>HTML</p>
-        </div>
-        <div className="list-tech">
-        <img className="work-icon" src={css} alt="react"></img>
-        <p>CSS</p>
-        </div>
-        </div>
-        </div>
         </a>
+        <p className="tech-desc">Static informative site for DUI schooling.</p>
+        <div className="tech-list">
+        <div className="list-tech">
+        <div className="work-icon-div">
+        <img className="work-icon" src={js} alt="react"></img>
+        <p className="tech-title2">JavaScript</p>
+        </div>
+        </div>
+        <div className="list-tech">
+        <div className="work-icon-div">
+        <img className="work-icon" src={html} alt="react"></img>
+            <p className="tech-title2">HTML</p>
+            </div>
+        </div>
+        <div className="list-tech">
+        <div className="work-icon-div">
+        <img className="work-icon" src={css} alt="react"></img>
+        <p className="tech-title2">CSS</p>
+        </div>
+        </div>
+        </div>
+        </div>
       <div id="div3" className="slide-div2">
         <img className="slidesOne" src={ ff7login }  />
         <img className="slidesOne" src={ ff7menu } />
         <img className="slidesOne" src={ ff7 }  />
         <h1 className="title-header">FF7 Resu-Maker</h1>
+        <p className="tech-desc">Final Fantasy Seven themed resume builder.</p>
         <div className="tech-list">
         <div className="list-tech">
+        <div className="work-icon-div">
         <img className="work-icon" src={react} alt="react"></img>
-            <p>React</p>
+            <p className="tech-title1">React</p>
+            </div>
         </div>
         <div className="list-tech">
+        <div className="work-icon-div">
         <img className="work-icon" src={redux} alt="react"></img>
-            <p>Redux</p>
+            <p className="tech-title1">Redux</p>
+            </div>
         </div>
         <div className="list-tech">
+        <div className="work-icon-div">
         <img className="work-icon" src={node} alt="react"></img>
-            <p>Express</p>
+            <p className="tech-title1">Express</p>
+            </div>
         </div>
         <div className="list-tech">
+        <div className="work-icon-div">
         <img className="work-icon" src={jwt} alt="react"></img>
-            <p>JWT</p>
+            <p className="tech-title1">JWT</p>
+        </div>
         </div>
         </div>
         </div>

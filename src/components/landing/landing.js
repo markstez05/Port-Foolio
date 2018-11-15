@@ -166,34 +166,34 @@ of technological issues, managing and developing groups of people, orchestrating
             <div className="tech-container2">
             <div className="tech-box2">
             <ul>
-              <li className="tech-title2">HTML</li>
-              <li className="tech-title2">JavaScript</li>
-              <li className="tech-title2">BootStrap</li>
-              <li className="tech-title2">SASS/LESS</li>
+              <li className="tech-title3">HTML</li>
+              <li className="tech-title3">JavaScript</li>
+              <li className="tech-title3">BootStrap</li>
+              <li className="tech-title3">SASS/LESS</li>
             </ul>
             </div>
             <div className="tech-box2">
             <ul>
-              <li className="tech-title2">Express</li>
-              <li className="tech-title2">Django</li>
-              <li className="tech-title2">Python</li>
-            <li className="tech-title2">Mongoose</li>
+              <li className="tech-title3">Express</li>
+              <li className="tech-title3">Django</li>
+              <li className="tech-title3">Python</li>
+            <li className="tech-title3">Mongoose</li>
             </ul>
             </div>
             <div className="tech-box2">
             <ul>
-              <li className="tech-title2">SQL</li>
-              <li className="tech-title2">OAuth</li>
-              <li className="tech-title2">JWT</li>
-              <li className="tech-title2">REST</li>
+              <li className="tech-title3">SQL</li>
+              <li className="tech-title3">OAuth</li>
+              <li className="tech-title3">JWT</li>
+              <li className="tech-title3">REST</li>
             </ul>
             </div>
             <div className="tech-box2">
             <ul>
-              <li className="tech-title2">Heroku</li>
-              <li className="tech-title2">Firebase</li>
-              <li className="tech-title2">Netlify</li>
-              <li className="tech-title2">VSCode</li>
+              <li className="tech-title3">Heroku</li>
+              <li className="tech-title3">Firebase</li>
+              <li className="tech-title3">Netlify</li>
+              <li className="tech-title3">VSCode</li>
             </ul>
             </div>
             </div>

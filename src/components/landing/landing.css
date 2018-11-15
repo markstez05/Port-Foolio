@@ -28,6 +28,7 @@
     font-family: Koho;
     font-weight: 400;
     font-size: 3rem;
+    z-index: 6;
 }
 .contain{
     display: flex;
@@ -351,17 +352,17 @@ span{
 }
 .tech-title{
     margin-left: 4px;
-    color:rgb(241, 241, 241);
-    font-size: 1.18rem;
+    color:rgb(235, 235, 235);
+    font-size: 1.11rem;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.tech-title2{
-    color: rgb(240, 240, 240);
+.tech-title3{
+    color: rgb(230, 230, 230);
     padding-bottom: 5px;
     text-align: left;
     margin-left: 4px;
-    font-size: 1.04rem;
+    font-size: 1.02rem;
 }
 .tech-box2{
     margin-right: 00px;
