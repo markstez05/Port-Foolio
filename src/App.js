@@ -20,6 +20,7 @@ class App extends Component {
       <Route  component={Landing} />
       <Route component={Resume} />
       <Route  component={Work} />
+      <footer className="footer">© 2018 <a className="atag" href="https://markstesney.netlify.com/">Mark Stesney</a> | Site By <a className="atag" href="https://markstesney.netlify.com/">Sakkey</a></footer>
       </div>
       </Router>
     );

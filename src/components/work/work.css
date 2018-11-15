@@ -4,8 +4,8 @@
     position: relative;
     margin: auto;
     z-index: 0;
-    background-color:rgba(73, 73, 73, 1);
-    background-image: linear-gradient(rgb(99, 99, 99), rgb(87, 87, 87));
+    background-color:rgb(100, 100, 100);
+    /* background-image: linear-gradient(rgb(56, 56, 56), rgb(31, 31, 31)); */
     width: 100%;
     height: 700px;
     font-family: lato;
@@ -29,7 +29,7 @@
     font-size: 3rem;
 }
 .slide-div1{
-    background-color:#218180;
+    background-color:rgb(100, 100, 100);
     border-radius: 5px;
     border: 1px solid rgb(65, 65, 65);
     display: flex;
@@ -50,7 +50,7 @@
 
 }
 .slide-div2{
-    background-color:#218180;
+    background-color:rgb(100, 100, 100);
     border-radius: 5px;
     border: 1px solid rgb(65, 65, 65);
     display: flex;
@@ -69,7 +69,7 @@
 
 }
 .slide-div3{
-    background-color:#218180;
+    background-color:rgb(100, 100, 100);
     border-radius: 5px;
     border: 1px solid rgb(65, 65, 65);
     display: flex;
@@ -89,19 +89,19 @@
 .slide-div1:hover {
     transform: translate(0, -2%);
     transition: all ease-in .3s;
-    box-shadow: 1px 5px 5px 2px rgb(46, 46, 46);
+    box-shadow: 1px 5px 5px 2px rgb(59, 59, 59);
     z-index: 4;
 }
 .slide-div2:hover{
     transform: translate(0 , -2%);
     transition: all ease-in .3s;
-    box-shadow: 1px 5px 5px 2px rgb(46, 46, 46);
+    box-shadow: 1px 5px 5px 2px rgb(59, 59, 59);;
     z-index: 4;
 }
 .slide-div3:hover{
     transform: translate(0 , -2%);
     transition: all ease-in .3s;
-    box-shadow: 1px 5px 5px 2px rgb(46, 46, 46);
+    box-shadow: 1px 5px 5px 2px rgb(59, 59, 59);;
     z-index: 4;
 }
 .visited{
@@ -140,7 +140,7 @@
     margin-top: 302px;
     align-self: center;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.24rem;
     
 }
 .list-tech{
@@ -151,7 +151,7 @@
 .tech-title1{
     background-color: rgb(245, 245, 245);
     font-size: .8rem;
-    color: gray;
+    color: rgb(83, 83, 83);
     opacity: 0;
     text-align: center;
     width: 70px;
@@ -159,15 +159,15 @@
     padding: 5px 0;
     position: relative;
     z-index: 10;
-    width: 90px;
+    width: 85px;
     left: 4%;
     /* box-shadow: 0px 0px 5px 1px rgba(27, 27, 27, 0.521); */
-    margin-top: -80px;
+    margin-top: -90px;
 }
 .tech-title2{
     background-color: rgb(245, 245, 245);
     font-size: .8rem;
-    color: gray;
+    color: rgb(83, 83, 83);
     opacity: 0;
     text-align: center;
     width: 70px;
@@ -175,23 +175,23 @@
     padding: 5px 0;
     position: relative;
     z-index: 10;
-    width: 90px;
+    width: 85px;
     left: 15%;
-    margin-top: -80px;
+    margin-top: -92px;
     /* box-shadow: 0px 1px 5px 1px rgba(46, 46, 46, 0.637); */
 }
 .work-icon{
-    margin-top: -8px;
+    margin-top: -13px;
     background-color: #222228;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border: 3px solid #9A551E;
     border-radius: 100%;
 }
 .work-icon:hover{
-    transform: translate(0 , -2%);
+    transform: translate(0 , -8%);
     transition: all ease-in-out .5s;
-    box-shadow: 0px 3px 5px 2px rgb(46, 46, 46);
+    box-shadow: 0px 2px 5px 1px rgb(51, 51, 51);;
     z-index: 4;
 }
 .work-icon-div:hover .tech-title1{

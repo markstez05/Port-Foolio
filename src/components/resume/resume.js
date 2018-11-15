@@ -55,12 +55,27 @@ render () {
         </div>
         <div className="resume-item">
         <div className="resume-headers">
-        <h3 className="resume-title">EXPERIENCE</h3>
+        <h3 className="resume-title">EDUCATION</h3>
         </div>
         <div className="resume-info">
-            <p>
+            <h3 className="resume-header">
             Lambda School of Computer Science
-            </p>
+            </h3>
+            <p className="date"><span className="spanner">Full Stack Web Development</span>  March 2015 - January 2018</p>
+                <ul className="content">
+                <li className="resume-list">
+                Approached all coding challenges using pair programming
+                 </li>
+                <li className="resume-list">
+                Utilized agile software development and Git workflow on all projects 
+                 </li>
+                <li className="resume-list">
+                Hands on experience with client and server testing,
+                </li>
+                <li className="resume-list">
+                Completed all curriculum course work including; React, react native, redux, node, express, mongoDB, python, django, jest and more.
+                 </li>
+                    </ul>
             </div>
         </div>
         </div>
