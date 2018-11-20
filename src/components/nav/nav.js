@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./nav.css";
-import { FaBriefcase, FaFile , FaHome, FaGithub, FaLinkedin, FaEnvelope, FaPhoneSquare, FaUser } from "react-icons/fa";
+import { FaTimes, FaBriefcase, FaBars, FaFile , FaHome, FaGithub, FaLinkedin, FaEnvelope, FaPhoneSquare, FaUser } from "react-icons/fa";
 import logo from "../../images/logo.png"
 
 class NavBar extends Component{
@@ -11,8 +11,17 @@ class NavBar extends Component{
     isBotter: false
   };
 
+  click = () =>{
+    document.getElementById("dropdown-content").style.display = "block";
+    document.getElementById("bars").style.display = "none";
+    document.getElementById("x").style.display = "block";
+  }
+  clickx = () =>{
+    document.getElementById("dropdown-content").style.display = "none";
+    document.getElementById("bars").style.display = "block";
+    document.getElementById("x").style.display = "none";
 
-
+  }
   componentDidMount() {
     document.addEventListener('scroll', () => {
     const isTop = window.scrollY < 400;
@@ -97,6 +106,52 @@ class NavBar extends Component{
               >
             <FaPhoneSquare className="icons" /></a>
             </div>
+            <div className="dropdown">
+    <button className="dropbtn">
+    <FaBars id="bars" className="bars" onClick={this.click}/>
+    <FaTimes id="x" className="x" onClick={this.clickx}/>
+    </button>
+    <div id="dropdown-content" className="dropdown-content">
+    <a style={{color: this.state.isTop ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
+                  href="#home">
+                  <FaHome/> Home</a>
+                <a style={{color: this.state.isMid ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
+                  href="#about">
+                  <FaUser/>   About</a>
+               <a style={{color: this.state.isBot ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
+               href="#resume">
+                  <FaFile/> Resume</a>
+                  <a style={{color: this.state.isBotter ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
+               href="#work">
+                  <FaBriefcase/> Projects</a>
+                  <div className="navbar3">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/mark-stesney/"
+              >
+            <FaLinkedin className="icons2" /></a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/markstez05"
+              >
+            <FaGithub className="icons2" /></a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="mailto:mstesney12@gmail.com"
+              >
+            <FaEnvelope className="icons2" /></a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="tel:1-918-361-8479"
+              >
+            <FaPhoneSquare className="icons2" /></a>
+            </div>
+    </div>
+  </div> 
             </div>
         )
     }

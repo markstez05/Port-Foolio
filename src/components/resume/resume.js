@@ -61,7 +61,7 @@ render () {
             <h3 className="resume-header">
             Lambda School of Computer Science
             </h3>
-            <p className="date"><span className="spanner">Full Stack Web Development</span>  March 2015 - January 2018</p>
+            <p className="date"><span className="spanner">Full Stack Web Development</span>  March 2018 - October 2018</p>
                 <ul className="content">
                 <li className="resume-list">
                 Approached all coding challenges using pair programming

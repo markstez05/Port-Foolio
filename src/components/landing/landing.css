@@ -425,6 +425,51 @@ ul {
     width: 1em;
     margin-left: -1em;
   }
+  @media (max-width: 650px){
+    .spinner{
+        z-index: 4;
+        margin-left:-7px;
+        margin-top: -10px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        transform: rotate(-360deg);
+        left: 14px;
+        height: 45px;
+        width: 45px;
+        border: 13px solid rgba(0, 128, 128, 1);
+        border-right-color:  rgba(155, 85, 20, 1);
+        border-top-color: rgba(155, 85, 20, 1);
+        border-radius: 100%;
+        /* box-shadow: inset 1px 0px 3px 2px rgba(9, 247, 255, 0.637); */
+        animation-name:spin;
+        animation-duration: 2s; 
+        animation-delay: .1s; 
+        /* animation-fill-mode: forwards; */
+    }
+    .spinner1{
+        z-index: 4;
+        position: fixed;
+        left:5px;
+        margin-left:25px;
+        top: 12px;
+        height: 45px;
+        transform: rotate(0deg);
+        width: 45px;
+        border: 10px solid rgba(155, 85, 20, 1);
+        border-right-color: rgba(0, 128, 128, 1);
+        border-top-color: rgba(0, 128, 128, 1);
+        border-radius: 100%;
+        /* box-shadow: 1px 0px 3px 2px rgba(56, 253, 237, 0.575); */
+        animation-name:spinTwo;
+        animation-duration: 2s; 
+        animation-delay: .1s; 
+        /* animation-fill-mode: forwards; */
+    }
+
+  }
 @keyframes spin {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
