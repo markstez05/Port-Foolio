@@ -429,25 +429,42 @@ ul {
     .stats{
         display: none;
     }
-    .landing{
+    /* .landing{
         height: 700px;
+    } */
+    .contain{
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        margin: auto;
+        width: 95%;
+        height: 620px;
+        max-width: 1400px;
     }
     .profile{
-        margin-top: 660px;
-        margin-left: -120px;
+        margin-top: 600px;
+        margin-left: -100px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        transform: scale(.9);
     }
     .header{
         align-self: center;
         justify-self: center;
         position: absolute;
-        top: 9%;
+        top: 24%;
         width: 100%;
         text-align: right;
         color: white;
         font-size: 1.3rem;
+    }
+    .image{
+        z-index: 1;
+        position: relative;
+        left: 0;
+        margin-left: -210px;
+        margin-bottom: -11px;
     }
     strong{
         font-size: 1.5rem;
