@@ -18,7 +18,10 @@ render () {
             Lambda School
             </h3>
             <div>
-                <p className="date"><span className="spanner">Software Engineer</span>  March 2018 - Current</p>
+                <div className="date">
+                <p className="spanner">Software Engineer</p> 
+                <p> March 2018 - Current</p>
+                </div>
                 <ul className="content">
                 <li className="resume-list">
                 Engineer applications using React, Redux, Node, Express, MongoDB, HTML, CSS3, and Bcrypt.
@@ -38,7 +41,10 @@ render () {
             <h3 className="resume-header">
             Treatment Services, LLC
             </h3>
-                <p className="date"><span className="spanner">Chief Development Officer</span>  March 2015 - January 2018</p>
+            <div className="date">
+            <p className="spanner">Chief Development Officer</p> 
+            <p>Feb 2015 - January 2018</p>
+                </div>
                 <ul className="content">
                 <li className="resume-list">
                 Worked with the State Opioid Treatment Authority to determine statistical relevance of areas in need of treatment facilities.                 </li>
@@ -61,7 +67,10 @@ render () {
             <h3 className="resume-header">
             Lambda School of Computer Science
             </h3>
-            <p className="date"><span className="spanner">Full Stack Web Development</span>  March 2018 - October 2018</p>
+            <div className="date">
+                <p className="spanner">Full Stack Web Developer</p> 
+                <p> March 2018 - October 2018</p>
+                </div>
                 <ul className="content">
                 <li className="resume-list">
                 Approached all coding challenges using pair programming
