@@ -455,6 +455,7 @@ ul {
         position: absolute;
         top: 24%;
         width: 100%;
+        margin-right: 15px;
         text-align: right;
         color: white;
         font-size: 1.3rem;
