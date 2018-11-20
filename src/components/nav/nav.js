@@ -130,25 +130,25 @@ class NavBar extends Component{
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/mark-stesney/"
               >
-            <FaLinkedin className="icons2" /></a>
+            <FaLinkedin className="icons3" /></a>
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/markstez05"
               >
-            <FaGithub className="icons2" /></a>
+            <FaGithub className="icons3" /></a>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="mailto:mstesney12@gmail.com"
+              href="mailto:mstesney13@gmail.com"
               >
-            <FaEnvelope className="icons2" /></a>
+            <FaEnvelope className="icons3" /></a>
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="tel:1-918-361-8479"
               >
-            <FaPhoneSquare className="icons2" /></a>
+            <FaPhoneSquare className="icons3" /></a>
             </div>
     </div>
   </div> 

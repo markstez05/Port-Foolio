@@ -426,6 +426,48 @@ ul {
     margin-left: -1em;
   }
   @media (max-width: 650px){
+    .stats{
+        display: none;
+    }
+    .landing{
+        height: 700px;
+    }
+    .profile{
+        margin-top: 660px;
+        margin-left: -120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .header{
+        align-self: center;
+        justify-self: center;
+        position: absolute;
+        top: 9%;
+        width: 100%;
+        text-align: right;
+        color: white;
+        font-size: 1.3rem;
+    }
+    strong{
+        font-size: 1.5rem;
+    }
+    span{
+        font-size: 1rem;
+    }
+    .header-text{
+        font-size: 1.1rem;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+    }
+    .header-text2{
+        font-size: 1.1rem;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+    }
+    .lorem{
+        display:none;
+    }
     .spinner{
         z-index: 4;
         margin-left:-7px;
