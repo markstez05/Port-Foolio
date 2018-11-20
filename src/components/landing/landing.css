@@ -474,8 +474,8 @@ ul {
         top: 13.5%;
         right: 0%;
         width: 100%;
-        margin-right: 5px;
-        text-align: right;
+        margin-right: 0px;
+        text-align: left;
         color: white;
         font-size: 1.3rem;
         transform: scale(1);
@@ -499,6 +499,7 @@ ul {
         font-size: 1.2rem;
         color: rgb(255, 255, 255);
         font-weight: 400;
+        text-align: left;
     }
     .header-text2{
         font-size: 1.2rem;

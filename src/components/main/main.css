@@ -144,7 +144,7 @@
     .box{
         opacity: 0;
         /* margin-right: 70px; */
-        margin-right:60px;
+        margin-right:70px;
         width: 290px;
         height: 3px;
         background-color: #95531E;
@@ -152,7 +152,16 @@
         animation-fill-mode: forwards;  
         animation-delay: 2.5s;
     }
-    
+    .welcome{
+        opacity: 0;
+        margin-top: -5px;
+        margin-bottom: 5px;
+        margin-right: 20px;
+        border-radius: 0px;
+        animation: fadeIn 3s;
+        animation-fill-mode: forwards;  
+        animation-delay: 3.7s;
+    }
     .box1{
         margin: auto;
         margin-top: 0px;
