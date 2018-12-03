@@ -62,10 +62,6 @@ class Work extends Component {
             <div id="work" className="work-container">
         <h2 className="project-header">Projects</h2>
       <div id="div1" className="slide-div1">
-      <a   className="visited"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://atlas-minerva.herokuapp.com/">
         <div className="slide-info">
          <div className="slide-text">
         <h2>Atlas</h2>
@@ -75,6 +71,10 @@ class Work extends Component {
         <img className="slides" src={ mapProfile }  />
         <img className="slides" src={ list } />
         <img className="slides" src={ map }  />
+      <a   className="visited"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://atlas-minerva.herokuapp.com/">
         <h1 className="title-header">Atlas</h1>
         </a>
         <p className="tech-desc">Geolocation job search application.</p>

@@ -109,6 +109,11 @@
 .visited:hover{
     color:white;
 }
+.visited:hover .title-header{
+    transition: all ease-in .5s;
+    color: #05FFFF;
+    text-shadow: 2px 2px 2px rgb(51, 51, 51);
+}
 .title-header{
     text-decoration: none;
     padding-top: 5px;
