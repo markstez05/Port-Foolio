@@ -42,7 +42,7 @@ class Work extends Component {
         this.myIndex++;
         if (this.myIndex > x.length) { this.myIndex = 1 }
         x[this.myIndex - 1].style.opacity= "";
-        setTimeout(this.carousel, 4000);
+        setTimeout(this.carousel, 3000);
     }
     myIndexTwo = 0;
     carouselTwo = () =>{
@@ -54,7 +54,7 @@ class Work extends Component {
         this.myIndexTwo++;
         if (this.myIndexTwo > y.length) { this.myIndexTwo = 1 }
         y[this.myIndexTwo - 1].style.opacity = "1";
-        setTimeout(this.carouselTwo, 3000);
+        setTimeout(this.carouselTwo, 2500);
     }
     
     render() {  
@@ -62,10 +62,21 @@ class Work extends Component {
             <div id="work" className="work-container">
         <h2 className="project-header">Projects</h2>
       <div id="div1" className="slide-div1">
+      <a   className="visited"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://atlas-minerva.herokuapp.com/">
+        <div className="slide-info">
+         <div className="slide-text">
+        <h2>Atlas</h2>
+        <p>Atlas is a social networking app which allows current job seekers to match with recruiters in their area by simply searching through job postings in the app.</p>
+        </div>
+        </div>
         <img className="slides" src={ mapProfile }  />
         <img className="slides" src={ list } />
         <img className="slides" src={ map }  />
-        <h1 className="title-header">Atlas Map</h1>
+        <h1 className="title-header">Atlas</h1>
+        </a>
         <p className="tech-desc">Geolocation job search application.</p>
         <div className="tech-list">
         <div className="list-tech">
@@ -95,11 +106,17 @@ class Work extends Component {
         </div>
         </div>
         <div id="div2" className="slide-div3">
-        <img className="slides3" src={ jeremiah }  />
         <a   className="visited"
             target="_blank"
             rel="noopener noreferrer"
             href="https://jeremiahsite.herokuapp.com/">
+        <div className="slide-info">
+         <div className="slide-text">
+        <h2>Jermiah Hall DUI School</h2>
+        <p>Jeremiah Hall DUI School is a static information site for DUI schooling in Tulsa, OK. </p>
+        </div>
+        </div>
+        <img className="slides3" src={ jeremiah }  />
         <h1 className="title-header">Static Site</h1>
         </a>
         <p className="tech-desc">Static informative site for DUI schooling.</p>
@@ -125,10 +142,21 @@ class Work extends Component {
         </div>
         </div>
       <div id="div3" className="slide-div2">
+        <a   className="visited"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://ff7.herokuapp.com/">
+        <div className="slide-info">
+         <div className="slide-text">
+        <h2>FF7 Resu-Maker</h2>
+        <p>FF7 Resu-Maker is an application used to build out a full resume in a Final Fantasy 7 menu themed layout. </p>
+        </div>
+        </div>
         <img className="slidesOne" src={ ff7login }  />
         <img className="slidesOne" src={ ff7menu } />
         <img className="slidesOne" src={ ff7 }  />
         <h1 className="title-header">FF7 Resu-Maker</h1>
+        </a>
         <p className="tech-desc">Final Fantasy Seven themed resume builder.</p>
         <div className="tech-list">
         <div className="list-tech">

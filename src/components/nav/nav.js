@@ -11,17 +11,16 @@ class NavBar extends Component{
     isBotter: false
   };
 
-  click = () =>{
-    document.getElementById("dropdown-content").style.display = "block";
-    document.getElementById("bars").style.display = "none";
-    document.getElementById("x").style.display = "block";
-  }
-  clickx = () =>{
-    document.getElementById("dropdown-content").style.display = "none";
-    document.getElementById("bars").style.display = "block";
-    document.getElementById("x").style.display = "none";
-
-  }
+  // click = () =>{
+  //   document.getElementById("dropdown-content").style.display = "block";
+  //   document.getElementById("bars").style.display = "none";
+  //   document.getElementById("x").style.display = "block";
+  // }
+  // clickx = () =>{
+  //   document.getElementById("dropdown-content").style.display = "none";
+  //   document.getElementById("bars").style.display = "block";
+  //   document.getElementById("x").style.display = "none";
+  // }
   componentDidMount() {
     document.addEventListener('scroll', () => {
     const isTop = window.scrollY < 400;

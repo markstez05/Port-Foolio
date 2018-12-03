@@ -28,7 +28,7 @@
     font-family: Koho;
     font-weight: 400;
     font-size: 3rem;
-    z-index: 6;
+    z-index: 20;
 }
 .contain{
     display: flex;
@@ -460,7 +460,7 @@ ul {
         max-width: 1400px;
     }
     .profile{
-        margin-top: 600px;
+        margin-top: 615px;
         margin-left: -100px;
         display: flex;
         flex-direction: column;
