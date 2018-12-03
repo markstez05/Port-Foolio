@@ -110,9 +110,9 @@
     color:white;
 }
 .visited:hover .title-header{
-    transition: all ease-in .5s;
+    transition: all ease-in .3s;
     color: #05FFFF;
-    text-shadow: 2px 2px 2px rgb(51, 51, 51);
+    text-shadow: 2px 2px 3px rgb(59, 59, 59);
 }
 .title-header{
     text-decoration: none;
@@ -239,7 +239,7 @@
     height: 300px;
     z-index: 10;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     background-color: rgba(0, 0, 0, 0.85);
     opacity: 0;
     z-index: 10;
@@ -248,7 +248,7 @@
     opacity: 1;
 }
 .slide-text{
-    margin-top: 90px;
+    margin-top: 60px;
     margin-left: 15px;
     margin-right: 15px;
 }
