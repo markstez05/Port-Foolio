@@ -68,7 +68,7 @@ class Work extends Component {
             href="https://atlas-minerva.herokuapp.com/">
         <div className="slide-info">
          <div className="slide-text">
-        <h1>Atlas</h1>
+        <h2>Atlas</h2>
         <p>Atlas is a social networking app which allows current job seekers to match with recruiters in their area by simply searching through job postings in the app.</p>
         </div>
         </div>
@@ -112,7 +112,7 @@ class Work extends Component {
             href="https://jeremiahsite.herokuapp.com/">
         <div className="slide-info">
          <div className="slide-text">
-        <h1>Jermiah Hall DUI School</h1>
+        <h2>Jermiah Hall DUI School</h2>
         <p>Jeremiah Hall DUI School is a static information site for DUI schooling in Tulsa, OK. </p>
         </div>
         </div>
@@ -148,7 +148,7 @@ class Work extends Component {
             href="https://ff7.herokuapp.com/">
         <div className="slide-info">
          <div className="slide-text">
-        <h1>FF7 Resu-Maker</h1>
+        <h2>FF7 Resu-Maker</h2>
         <p>FF7 Resu-Maker is an application used to build out a full resume in a Final Fantasy 7 menu themed layout. </p>
         </div>
         </div>

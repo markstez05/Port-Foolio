@@ -230,27 +230,53 @@
     height: 300px;
 }
 .slide-info{
-    transition: ease-in all .5s;
-    margin: auto;
     position: absolute;
     top: 10.7%;
-    right: 0%;
-    width: 400px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 0;
     height: 300px;
+    transition: .5s ease;
     z-index: 10;
     text-align: center;
     font-size: 1.2rem;
-    background-color: rgba(0, 0, 0, 0.85);
-    opacity: 0;
+    color: white;
+    background-color: rgba(8, 8, 8, 0.9);
     z-index: 10;
 }
-.slide-info:hover{
-    opacity: 1;
+.slide-div3:hover .slide-info{
+width: 100%;
 }
+.slide-div3:hover .slide-text{
+   width: 90%;
+   left:0;
+    }
+.slide-div2:hover .slide-info{
+    width: 100%;
+    }
+    .slide-div2:hover .slide-text{
+        width: 90%;
+        left: 0;
+        }
+    .slide-div1:hover .slide-info{
+        width: 100%;
+        }
+        .slide-div1:hover .slide-text{
+            width: 90%;
+            left: 0;
+            }
 .slide-text{
     margin-top: 60px;
     margin-left: 15px;
     margin-right: 15px;
+    position: absolute;
+    left: 600%;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+    transition: 1s ease;
 }
 .slides3{
     transition: ease-in all .5s;
@@ -260,6 +286,9 @@
     right: 0%;
     width: 400px;
     height: 300px;
+}
+@keyframes slidet {
+    100% {left: 0;}
 }
 @media (max-width: 650px){
     .work-container{
